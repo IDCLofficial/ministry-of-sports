@@ -1,276 +1,163 @@
 {
-  "ministry": "Ministry of Niger Delta Affairs and Intelligence",
-  "state": "Imo State",
-  "pages": {
+  "ministry_name": "Imo State Ministry of Lands, Survey, Housing and Urban Planning",
+  "website_recommendations": {
     "home": {
-      "page_name": "Home",
-      "content": {
-        "banner_section": {
-          "logo": "ministry's logo prominently displayed",
-          "slogan": "ministry slogan as first sight to behold"
-        },
-        "welcome_section": {
-          "commissioner_speech": "welcome speech from the commissioner",
-          "ministry_history": "The Ministry of Niger Delta Affairs and Intelligence, under the Government of Imo State, serves as a strategic institution dedicated to promoting peace, sustainable development, and security within the state's oil-producing communities. Established to address the unique challenges of the Niger Delta region, the Ministry functions as a vital link between the state government, host communities, oil and gas operators, and national security agencies."
-        },
-        "ministry_evolution": {
-          "background": "The Ministry of Niger Delta and Intelligence in Imo State was established to coordinate development initiatives in the state's oil-producing communities. Initially known as the Ministry of Niger Delta Affairs, it functioned as a liaison for federal programs aimed at infrastructure, youth empowerment, and environmental protection.",
-          "transformation": "In June 2024, Governor Hope Uzodinma renamed the ministry to include 'Intelligence,' broadening its mandate to incorporate community security and information gathering. This strategic shift aimed to address unrest, ensure transparency, and improve collaboration with stakeholders.",
-          "current_role": "The ministry now plays a vital role in supervising Niger Delta-focused interventions and promoting peace, especially in oil-rich LGAs. It also ensures that community needs are addressed through data-driven policies and effective implementation of projects tailored to local development and stability."
-        },
-        "ministry_priorities": {
-          "title": "Ministry Priorities",
-          "priorities": [
-            "Ensure effective coordination and implementation of Niger Delta development interventions in oil-producing communities",
-            "Integrate community-based intelligence and stakeholder feedback into local security and development planning",
-            "Promote peacebuilding and conflict prevention in host communities",
-            "Facilitate youth empowerment and skills training programs tailored to the Niger Delta zone",
-            "Oversee environmental restoration and sustainable infrastructure projects within the region",
-            "Enhance transparency, accountability, and performance monitoring of federal and state initiatives",
-            "Strengthen partnerships with traditional rulers, community leaders, and civil society organizations",
-            "Institutionalize data‑driven decision-making and intelligence-led community outreach",
-            "Improve interface between state-level agencies and federal Niger Delta institutions",
-            "Preserve cultural integrity and promote socially inclusive development across host communities"
+      "page_title": "Home",
+      "recommendations": {
+        "layout_overview": {
+          "logo_title": "Imo State Ministry of Lands, Survey & Physical Planning",
+          "main_menu_tabs": [
+            "Home",
+            "About Us / Pages", 
+            "Departments",
+            "Services",
+            "Contact"
           ]
         },
-        "leadership_section": {
-          "permanent_secretary": {
-            "name": "Barr. Ibe Elieazah",
-            "position": "Permanent Secretary"
-          },
-          "commissioner": {
-            "name": "Prince Dr. Henry Uzor Okafor",
-            "position": "Honourable Commissioner",
-            "image": "profile picture positioned on the right-hand side",
-            "profile": "Prince Dr. Henry Uzor Okafor is the Honourable Commissioner for the Ministry of Niger Delta Affairs and Intelligence in Imo State. Appointed by Governor Hope Uzodinma in June 2024, he assumed office as the ministry was renamed to incorporate 'Intelligence,' highlighting a new focus on security and development in oil-producing areas. Prior to this role, he served as the Managing Director of ISOPADEC, where he led key initiatives in infrastructure and youth empowerment.",
-            "role_description": "As commissioner, Dr. Okafor champions the rights of host communities in Ohaji-Egbema, Oguta, and Oru East LGAs. He advocates for fair access to the 13% oil derivation fund and ensures that oil companies fulfill their obligations to local residents. He works closely with security agencies to tackle illegal oil bunkering and pipeline vandalism through intelligence gathering and coordinated enforcement.",
-            "leadership_style": "Dr. Okafor has fostered strong relationships with community leaders, journalists, and stakeholders, using dialogue to address challenges and improve public awareness. He is known for his swift response to crises and commitment to justice, particularly following violent attacks in the region. His leadership blends developmental action with strategic security coordination, making him a central figure in advancing peace and progress in Imo's Niger Delta communities."
+        "hero_banner_carousel": {
+          "description": "Rotating images of ministry buildings with captions (e.g. 'Ministry Building 1–4')",
+          "tagline": "Providing sustainable housing and land management solutions for Imolight",
+          "additional_content": "outline the vision and mission state on each banner slide"
+        },
+        "mission_vision": {
+          "mission": "To administer land and property services with integrity—leveraging digital systems like Imo Land Information Service Centre (IMLISC) for land registration, C of O issuance, and urban planning guidance—while restoring trust and enhancing equitable access.",
+          "vision": "To foster a transparent, efficient, and digitally enabled land management and urban planning system that supports sustainable development and public confidence in Imo State."
+        },
+        "welcome_statement": "Welcome to the Ministry of Lands, Survey, Housing and Urban Planning, Imo State—an agency committed to transforming land administration through innovation, transparency, and public-centered service.",
+        "sections": {
+          "departments": "display three vital department as floating card with read more link on each, which would take user to each department page",
+          "agencies": "outline the list of agencies with a read more link as card",
+          "services": "outline the list of service offer by the ministry as cards and a read more link to services page on each, which would give a detail information about the ministry services"
+        },
+        "integration": "integrate a google map",
+        "footer": {
+          "address": "Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria",
+          "contact_info": {
+            "address": "Block 7, Imo State, Secretariat, Port Harcourt Road Owerri, Imo",
+            "phone": "234 803 506 6722",
+            "phone_2": "234 803 870 4368",
+            "email": "------------------------------------"
           }
         }
       }
     },
     "about_us": {
-      "page_name": "About Us",
-      "content": {
-        "vision_statement": "To serve as the primary vehicle for the execution of government plans and programmes aimed at the rapid socio‑economic development of the Niger Delta Region",
-        "mission_statement": "To formulate and implement strategic plans, programmes, and initiatives, as well as coordinate the activities of government agencies, host communities, development partners, donor agencies, and other stakeholders to fast‑track the development of the Niger Delta Region",
-        "organizational_structure": {
-          "title": "Organizational/Hierarchical Chart",
-          "hierarchy": {
-            "commissioner": "Top executive of the ministry, overseeing policy, strategy, and all inter-agency cooperation",
-            "permanent_secretary": "Chief administrative officer, responsible for daily operations and civil service management",
-            "intelligence_arm": "A unique addition focused on security-related reporting and collaboration with naval and law enforcement units",
-            "liaison_development_units": "Bridge host communities and oil firms, ensuring fair treatment, advocacy, and local benefits",
-            "media_pr_unit": "Handles public engagement, community awareness, and media relations"
-          }
+      "page_title": "About Us",
+      "recommendations": {
+        "header": "consistent",
+        "ministry_introduction": "attach the ministry physical Structure with introduction statement: 'The Imo State Ministry of Lands, Survey, Housing and Urban Planning is the statutory organ of government responsible for land administration, urban spatial planning, and the development of housing policy across the state. Guided by modern principles of transparency and accountability, the ministry plays a central role in facilitating equitable land distribution, surveying and mapping services, layout planning, and the issuance of secure land titles, such as Certificates of Occupancy.'",
+        "commissioner_section": {
+          "instruction": "attach the commissioner picture with his brief bio and statement",
+          "bio": "Barr. Enyinna Victor Onuegbu, KSC, is the current Commissioner for Lands, Survey and Physical Planning in Imo State under Governor Hope Uzodinma. He hails from Umuokoro-Eziama in Ngor Okpala LGA and holds the traditional title of Ebekuodike (Prime Minister) of his community. A trained lawyer, Onuegbu began his legal career in Owerri after NYSC. He is married to Magistrate Uche Onuegbu, and they have four children. His early political mentorship came from the late Senator Arthur Nzeribe, whom he served as legal adviser and political aide. Onuegbu's political journey spans several decades, beginning in the SDP and later the Democratic Party of Nigeria. He has served as Commissioner for Power and Chief Political Adviser to the Governor before returning as Lands Commissioner in 2025. He is known for reforming the land sector by eliminating irregularities, enforcing due process, and digitizing land records in partnership with the Imo Geographic Information Service (IGIS). His leadership promotes transparency and public trust in land administration. Barr. Onuegbu is respected for his professionalism, cultural values, and loyalty to the Uzodinma administration. Despite political speculation, he remains focused on delivering efficient public service without pursuing personal political ambition."
         },
-        "key_departments": {
-          "title": "The ministry comprises the following key departments:",
-          "departments": [
-            "Department of Administration and Human Resources",
-            "Department of Finance and Accounts",
-            "Department of Planning, Research, and Statistics",
-            "Department of Community Development and Advocacy",
-            "Department of Oil Companies and Stakeholder Relations",
-            "Department of Infrastructure and Project Implementation",
-            "Department of Environmental Protection and Restoration",
-            "Department of Intelligence and Security Coordination",
-            "Legal and Compliance Unit",
-            "Public Relations and Media Unit"
-          ]
-        }
-      }
-    },
-    "departments_agencies": {
-      "page_name": "Departments & Agencies",
-      "content": {
-        "commissioner_message": {
-          "title": "Commissioner's Message to the Public",
-          "message": "Fellow citizens of Imo State, especially our Niger Delta communities, As Commissioner for the Ministry of Niger Delta Affairs and Intelligence, I assure you that every department in this ministry is fully committed to serving you with excellence and transparency. From administration and finance to community development, infrastructure, and security coordination—each unit is working diligently to address your needs and uplift our communities. We are here to listen, act, and deliver meaningful results. This ministry belongs to you. Together, we will build a safer, stronger, and more prosperous future for the oil-producing regions of our dear state."
+        "mission_vision_statements": {
+          "mission": "---------------------------------",
+          "vision": "-----------------------------------------"
         },
-        "department_roles": {
-          "title": "Every department listed with their roles in the ministry",
-          "departments": {
-            "administration_hr": "Administration & HR ensures smooth operations and staffing",
-            "finance_accounts": "Finance & Accounts manages funds with transparency",
-            "planning_research": "Planning & Research guides evidence-based development",
-            "community_development": "Community Development empowers youths, women, and local leaders",
-            "oil_company_relations": "Oil Company Relations protects host community interests",
-            "infrastructure": "Infrastructure oversees roads and project execution",
-            "environment": "Environment handles pollution and restoration",
-            "intelligence_security": "Intelligence & Security combats illegal activities",
-            "legal_unit": "Legal Unit ensures regulatory compliance",
-            "pr_unit": "PR Unit communicates and listens"
-          }
-        },
-        "agencies": {
-          "title": "AGENCIES",
-          "core_government_agencies": {
-            "title": "📌 Core Government Agencies",
-            "agencies": {
-              "isopadec": "Imo State Oil Producing Areas Development Commission (ISOPADEC) – Oversees development projects and welfare in oil-producing LGAs",
-              "nddc": "Niger Delta Development Commission (NDDC) – Implements federal-level development projects in the Niger Delta",
-              "nosdra": "National Oil Spill Detection and Response Agency (NOSDRA) – Handles oil spill response, remediation, and prevention",
-              "nuprc": "Nigerian Upstream Petroleum Regulatory Commission (NUPRC) – Regulates oil exploration and production activities",
-              "ncdmb": "Nigerian Content Development and Monitoring Board (NCDMB) – Promotes local content and job creation in the oil & gas industry",
-              "environment_ministry": "Imo State Ministry of Environment – Coordinates environmental protection and restoration efforts",
-              "imo_sema": "Imo State Emergency Management Agency (IMO SEMA) – Responds to community crises and environmental disasters",
-              "works_ministry": "Imo State Ministry of Works & Infrastructure – Supports infrastructure delivery in Niger Delta communities",
-              "nimasa": "Nigerian Maritime Administration and Safety Agency (NIMASA) – Oversees maritime safety in oil-producing riverine areas"
-            }
-          }
-        },
-        "partners": {
-          "title": "PARTNERS",
-          "oil_energy_companies": {
-            "title": "🛢️ Oil & Energy Companies",
-            "companies": [
-              "Shell Petroleum Development Company (SPDC)",
-              "Nigerian Agip Oil Company (NAOC)",
-              "Chevron Nigeria Limited",
-              "Seplat Energy",
-              "Waltersmith Petroman Oil Limited",
-              "TotalEnergies Nigeria"
-            ]
-          },
-          "governmental_partners": {
-            "title": "🏢 Governmental & Inter-Governmental Partners",
-            "partners": [
-              "Niger Delta Development Commission (NDDC)",
-              "Imo State Oil Producing Areas Development Commission (ISOPADEC)",
-              "Ministry of Environment (Federal & State)",
-              "National Oil Spill Detection and Response Agency (NOSDRA)",
-              "Nigerian Upstream Petroleum Regulatory Commission (NUPRC)",
-              "Nigerian Content Development and Monitoring Board (NCDMB)"
-            ]
-          },
-          "security_agencies": {
-            "title": "🛡️ Security & Law Enforcement Agencies",
-            "agencies": [
-              "Nigerian Navy",
-              "Nigerian Police Force",
-              "Department of State Services (DSS)",
-              "Nigeria Security and Civil Defence Corps (NSCDC)",
-              "Imo State Security Network (Operation Search & Flush)"
-            ]
-          },
-          "development_partners": {
-            "title": "🌍 Development & International Partners",
-            "partners": [
-              "United Nations Development Programme (UNDP)",
-              "European Union (EU) Development Programmes",
-              "World Bank Nigeria (Community and Social Development Programme – CSDP)",
-              "USAID Nigeria",
-              "DFID (UK Foreign, Commonwealth & Development Office)"
-            ]
-          },
-          "civil_society": {
-            "title": "👥 Civil Society & Community-Based Organizations",
-            "organizations": [
-              "Host Communities of Nigeria Producing Oil and Gas (HOSTCOM)",
-              "Niger Delta Youths for Peace and Development",
-              "Traditional Rulers Councils",
-              "Local Women and Youth Associations",
-              "Faith-Based Organizations"
-            ]
-          }
-        }
-      }
-    },
-    "projects": {
-      "page_name": "Projects",
-      "content": {
-        "project_updates": {
-          "title": "Regular Project Updates",
-          "description": "✅ There will be a regularly updated list of all ongoing, completed, and upcoming projects across oil-producing communities in the state.",
-          "update_contents": [
-            "✔️ Project names, locations, and objectives",
-            "✔️ Status (Ongoing / Completed / Scheduled)",
-            "✔️ Benefiting communities and stakeholders",
-            "✔️ Photos and reports showing ministry personnel, engineers, and partners actively working on-site",
-            "✔️ Community engagement highlights and impact stories"
-          ]
-        },
-        "where_to_find_updates": {
-          "title": "🔄 Where to Find the Updates",
-          "description": "Project updates will be published on:",
-          "platforms": [
-            "The official website of the ministry",
-            "Social media handles",
-            "Community bulletin boards",
-            "Local newspapers (as needed)"
-          ]
-        },
-        "strategic_goals": {
-          "title": "Strategic Goals",
-          "goals": [
-            "Promote Inclusive Development in Oil-Producing Areas",
-            "Enhance Security Through Intelligence-Led Collaboration",
-            "Strengthen Community and Oil Company Relations",
-            "Foster Youth and Women Empowerment",
-            "Protect and Restore the Environment",
-            "Increase Transparency and Public Engagement",
-            "Strengthen Institutional Capacity and Accountability"
-          ]
-        }
-      }
-    },
-    "contact_us": {
-      "page_name": "Contact Us",
-      "content": {
-        "contact_information": {
-          "title": "📍 Contact Us",
-          "ministry_address": "Ministry of Niger Delta Affairs and Intelligence, Imo State Government Secretariat, New Owerri, Imo State, Nigeria.",
-          "phone_number": "+234 803 123 4567",
-          "email_address": "commissioner.ind.solid.min@gmail.com"
-        },
-        "contact_form": {
-          "title": "✉️ SEND US A MESSAGE",
-          "description": "Please fill out the form below to reach us directly. We value your inquiries, feedback, and concerns.",
-          "fields": [
-            "Name:",
-            "Company:",
-            "Phone Number:",
-            "Email Address:",
-            "Subject:",
-            "Message or Complaint:"
-          ],
-          "submit_button": "[Send Message] (Button)"
-        },
-        "location_map": {
-          "title": "🗺️ Find Us on the Map",
-          "description": "Click the link below to locate us on Google Maps from your current location:",
-          "cta": "👉 Locate the Ministry on Google Maps"
-        }
-      }
-    },
-    "news": {
-      "page_name": "News",
-      "content": {
-        "newsletter_subscription": {
-          "title": "📬 Stay Connected!",
-          "description": "Get the latest updates on community projects, empowerment programs, development news, and ministry activities delivered directly to your inbox. Subscribe to our newsletter and be the first to know how we're building a better Niger Delta for all.",
-          "form": {
-            "email_field": "Enter your email: ............................",
-            "submit_button": "Submit Button"
-          }
-        }
+        "team_members": "attach the pictures, names and positions hold by each member of the team",
+        "department_section": "Outline all the department on this ministry",
+        "map_integration": "Integrate a live google map before the footer",
+        "footer_contact": "footer and contact consistent"
       }
     },
     "commissioner": {
-      "page_name": "Commissioner",
-      "content": {
-        "commissioner_profile": {
-          "image": "A high quality picture of the Commissioner with her name and position below it",
-          "name": "Prince Dr. Henry Uzor Okafor",
-          "position": "Honourable Commissioner for Niger Delta Affairs and Intelligence"
-        },
-        "background_profile": {
-          "title": "BACKGROUND & PROFILE",
-          "content": "Prince Dr. Henry Uzor Okafor currently serves as the Honourable Commissioner for Niger Delta Affairs and Intelligence in Imo State. Appointed in 2024, he brings a wealth of experience from both public administration and grassroots community development. A strategic thinker with a passion for regional growth, Dr. Okafor has been instrumental in aligning the Ministry's operations with state and federal initiatives that focus on environmental sustainability, youth empowerment, and regional security.",
-          "community_connection": "Hailing from Oguta LGA, Prince Okafor is widely respected for his diplomatic leadership and conflict resolution skills, especially in addressing Niger Delta-specific issues like oil spill remediation, community agitation, and resource management. As Commissioner, he has strengthened partnerships with local communities, security agencies, and development partners to ensure inclusive governance and peace in the oil-producing regions.",
-          "leadership_qualities": "Known for his visionary leadership and a results-oriented approach, Prince Dr. Okafor is committed to transforming the ministry into a hub for innovation, intelligence-driven development, and equitable infrastructure delivery across the Niger Delta zones in Imo State."
-        }
+      "page_title": "Commissioner",
+      "recommendations": {
+        "name": "Chief Barr. Enyinna Onuegbu, KSC"
+      }
+    },
+    "departments_and_agencies": {
+      "page_title": "Department And Agencies",
+      "recommendations": {
+        "associated_agencies": [
+          {
+            "name": "Imo State Geographic Information Service (IGIS)",
+            "description": "Established under the Imo State Lands Administration and Geographic Information Service (Establishment) Law 2021. Responsible for digitizing land records, geospatial data, land registry services, land-title issuance, and land administration enforcement. Operates the IGIS Service Centre supporting citizens and government agencies with maps, reports, and spatial analytics."
+          },
+          {
+            "name": "Imo Housing Corporation",
+            "description": "Works with the ministry on matters related to land allocation, built property, and regulatory compliance."
+          },
+          {
+            "name": "Owerri Capital Development Authority (OCDA)",
+            "description": "Collaborates on urban planning, zoning, and development oversight in the state capital."
+          }
+        ]
+      }
+    },
+    "services": {
+      "page_title": "Services",
+      "recommendations": {
+        "service_categories": [
+          {
+            "category": "Land Administration",
+            "services": [
+              "Issuance of Certificate of Occupancy (C-of-O): Provides legal titles to landowners",
+              "Processing of land allocations and leaseholds: Administers residential, commercial, industrial, and agricultural plots",
+              "Title verification and land search reports: Confirms ownership and legal status of properties"
+            ]
+          },
+          {
+            "category": "Survey and Mapping",
+            "services": [
+              "Survey plan approval: Ensures all land measurements comply with state survey standards",
+              "Geospatial mapping services: Uses modern GIS tools to produce maps, layouts, and land demarcations",
+              "Boundary demarcation and re-establishment: Helps resolve land disputes and maintains legal boundaries"
+            ]
+          },
+          {
+            "category": "Physical and Urban Planning",
+            "services": [
+              "Development Control & Building Permit Approvals: Regulates construction and ensures compliance with town planning laws",
+              "Site Analysis & Planning Advice: Provides expert guidance on land use, zoning, and infrastructure layouts",
+              "Urban renewal and master plan implementation: Ensures organized growth in urban and rural environments"
+            ]
+          },
+          {
+            "category": "Land Use Charge and Revenue Collection",
+            "services": [
+              "Computation of land use charge (LUC): Calculates and processes annual property tax",
+              "Online payment and revenue reconciliation: Through IGIS and the Imo State Integrated Revenue Portal"
+            ]
+          },
+          {
+            "category": "Digital Land Services (via IGIS)",
+            "services": [
+              "Digital land registry and record digitization",
+              "Online application for land services",
+              "Geospatial database services for planning and analytics"
+            ]
+          },
+          {
+            "category": "Compensation and Valuation",
+            "services": [
+              "Valuation of land and properties: For compensation in government acquisitions or private negotiations",
+              "Assessment of compensation for land acquisition projects"
+            ]
+          }
+        ]
+      }
+    },
+    "additional_pages": {
+      "projects": {
+        "page_title": "Projects",
+        "recommendations": null
+      },
+      "news": {
+        "page_title": "News", 
+        "recommendations": null
+      },
+      "events": {
+        "page_title": "Events",
+        "recommendations": null
+      },
+      "media": {
+        "page_title": "Media",
+        "recommendations": null
+      },
+      "contact_us": {
+        "page_title": "Contact Us",
+        "recommendations": null
       }
     }
   }

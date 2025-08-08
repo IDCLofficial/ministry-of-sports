@@ -85,7 +85,7 @@ export default function Contact() {
                             </AnimatedEntrance>
                             <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_LEFT} delay={200}>
                                 <p className="text-gray-600 mb-12 leading-relaxed">
-                                    Reach out to the Ministry of Niger Delta Affairs and Intelligence for enquiries, feedback, or partnership opportunities. We are here to assist you.
+                                    Reach out to the Imo State Ministry of Lands, Survey, Housing and Urban Planning for enquiries, feedback, or partnership opportunities. We are here to assist you.
                                 </p>
                             </AnimatedEntrance>
 
@@ -98,7 +98,8 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
                                         <div className="space-y-1">
-                                            <a href="tel:+2348031234567" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">+234 803 123 4567</a>
+                                            <a href="tel:2348035066722" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">234 803 506 6722</a>
+                                            <a href="tel:2348038704368" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">234 803 870 4368</a>
                                         </div>
                                     </div>
                                 </AnimatedEntrance>
@@ -111,7 +112,7 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Office Address</h3>
                                         <p className="text-gray-600">
-                                            Ministry of Niger Delta Affairs and Intelligence, Imo State Government Secretariat, New Owerri, Imo State, Nigeria.
+                                            Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria
                                         </p>
                                     </div>
                                 </AnimatedEntrance>
@@ -124,13 +125,13 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Socials</h3>
                                         <div className="flex space-x-3 text-white">
-                                            <a href="https://facebook.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="https://facebook.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaSquareFacebook />
                                             </a>
-                                            <a href="https://twitter.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="https://twitter.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaTwitter />
                                             </a>
-                                            <a href="https://instagram.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="https://instagram.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaInstagram />
                                             </a>
                                         </div>
@@ -145,8 +146,8 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
                                         <div className="space-y-1">
-                                            <a href="mailto:commissioner.ind.solid.min@gmail.com" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
-                                                commissioner.ind.solid.min@gmail.com
+                                            <a href="mailto:[To be provided]" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                                                [To be provided]
                                             </a>
                                         </div>
                                     </div>
@@ -271,7 +272,7 @@ export default function Contact() {
                                             disabled={isSubmitting}
                                             className={`w-full bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors hover:transform hover:scale-105 duration-300 ${isSubmitting ? "opacity-80 cursor-not-allowed" : ""}`}
                                         >
-                                            {isSubmitting ? "Sending..." : "SEND MESSAGE"}
+                                            {isSubmitting ? "Sending..." : "SUBMIT ENQUIRY"}
                                         </button>
                                     </div>
                                 </form>
@@ -281,9 +282,9 @@ export default function Contact() {
                     </div>
                     {/* Map Integration */}
                     <div className="mt-16">
-                        <h3 className="text-2xl font-bold text-gray-900 mb-6">🗺️ Find Us on the Map</h3>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6">🗺️ Find Us on the Map</h3>
                         <div className="aspect-w-16 aspect-h-9 w-full h-96 bg-gray-100 rounded-lg overflow-hidden">
-                            <iframe
+                                <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.81189487678!2d7.010186338670749!3d5.473897698626462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042599584de1111%3A0xb4d850b7108614d4!2sIMO%20STATE%20SECRETARIAT%20OWERRI!5e0!3m2!1sen!2sng!4v1754572411582!5m2!1sen!2sng"
                                 width="100%"
                                 height="100%"
@@ -291,7 +292,7 @@ export default function Contact() {
                                 allowFullScreen
                                 aria-hidden="false"
                                 tabIndex={0}
-                                title="Ministry of Niger Delta Affairs and Intelligence Location"
+                                    title="Imo State Ministry of Lands, Survey, Housing and Urban Planning Location"
                             ></iframe>
                         </div>
                         <p className="text-sm text-gray-500 mt-2">

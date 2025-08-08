@@ -11,30 +11,30 @@ import Image from "next/image";
 const SPECIAL_PROJECTS = [
     {
         number: 1,
-        title: "Community Development Initiative",
-        description: "Empowering local communities through infrastructure development, social welfare programs, and capacity building initiatives in oil-producing regions of Imo State.",
-        location: "Ohaji-Egbema, Oguta, Oru East LGAs",
-        category: "Community Development",
+        title: "Land Titling & Regularization Program",
+        description: "A comprehensive initiative to issue Certificates of Occupancy and regularize land titles across Imo State, bringing more properties into the formal land administration system.",
+        location: "Statewide Implementation",
+        category: "Land Administration",
         status: "Ongoing",
-        partners: "NDDC, ISOPADEC, Local Communities"
+        partners: "IGIS, Local Government Areas, Traditional Rulers"
     },
     {
         number: 2,
-        title: "Environmental Protection & Restoration",
-        description: "Implementing comprehensive environmental cleanup and restoration programs in areas affected by oil pollution and environmental degradation.",
-        location: "Oil-Producing Communities",
-        category: "Environmental Sustainability",
+        title: "Digital Land Registry Implementation",
+        description: "Modernization of land records through the Imo Geographic Information Service (IGIS) for efficient land administration and transparent service delivery.",
+        location: "Imo State Secretariat, Owerri",
+        category: "Digital Transformation",
         status: "Active",
-        partners: "NOSDRA, Oil Companies, Local Communities"
+        partners: "IGIS, Ministry of Digital Economy"
     },
     {
         number: 3,
-        title: "Youth & Women Empowerment Program",
-        description: "Providing skills acquisition, entrepreneurship training, and financial support to empower youth and women in the Niger Delta region.",
-        location: "Statewide",
-        category: "Human Capital Development",
+        title: "Urban Renewal & Slum Upgrading Initiative",
+        description: "Comprehensive urban renewal program focusing on infrastructure development, slum upgrading, and improved urban planning in major cities across Imo State.",
+        location: "Owerri, Orlu, Okigwe",
+        category: "Urban Development",
         status: "Ongoing",
-        partners: "NCDMB, UNDP, Local Cooperatives"
+        partners: "Owerri Capital Development Authority, Local Communities"
     }
 ];
 
@@ -53,9 +53,9 @@ export default function Projects() {
                     <div className="text-center mb-8">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Development Initiatives</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Welcome to our Projects Hub, where you can explore key initiatives aimed at fostering sustainable development, 
-                            environmental protection, and community empowerment in the Niger Delta region of Imo State. Each project reflects 
-                            our commitment to transparency, peacebuilding, and inclusive growth in oil-producing communities.
+                            Explore our key projects and initiatives aimed at modernizing land administration, enhancing urban development, 
+                            and providing efficient services to the people of Imo State. Each project reflects our commitment to transparency, 
+                            digital transformation, and sustainable development in land management and urban planning.
                         </p>
                     </div>
                 </div>
@@ -67,15 +67,15 @@ export default function Projects() {
                     <div className="mb-8">
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Project Updates</h3>
                         <p className="text-gray-600 mb-6">
-                            Stay informed about our ongoing, completed, and upcoming projects across oil-producing communities in Imo State. 
-                            Each project includes detailed information about its objectives, status, and impact on local communities.
+                            Stay informed about our ongoing and upcoming initiatives in land administration, urban planning, and housing development 
+                            across Imo State. Each project is designed to enhance service delivery and promote sustainable development in our communities.
                         </p>
                         <ul className="list-disc list-inside text-gray-600 space-y-2 mb-8">
-                            <li>Project names, locations, and objectives</li>
-                            <li>Status (Ongoing / Completed / Scheduled)</li>
-                            <li>Benefiting communities and stakeholders</li>
-                            <li>Photos and reports from project sites</li>
-                            <li>Community engagement highlights and impact stories</li>
+                            <li>Land titling and regularization programs</li>
+                            <li>Digital transformation of land records</li>
+                            <li>Urban renewal and slum upgrading initiatives</li>
+                            <li>Infrastructure development projects</li>
+                            <li>Stakeholder engagement and capacity building</li>
                         </ul>
                     </div>
 
@@ -171,22 +171,22 @@ export default function Projects() {
                     <div className="text-center mb-10">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Through these initiatives, the Ministry of Niger Delta Affairs and Intelligence is committed to sustainable development, peacebuilding, and empowerment in the oil-producing communities of Imo State.
+                            The Ministry of Lands, Survey, Housing and Urban Planning is committed to transforming land administration and urban development in Imo State through innovation, transparency, and efficient service delivery.
                         </p>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {[
-                            "Promote Inclusive Development in Oil-Producing Areas through targeted interventions and community engagement.",
-                            "Enhance Security Through Intelligence-Led Collaboration with security agencies and local communities.",
-                            "Strengthen Community and Oil Company Relations for sustainable development and conflict prevention.",
-                            "Foster Youth and Women Empowerment through skills acquisition and entrepreneurship programs.",
-                            "Protect and Restore the Environment in areas affected by oil exploration and production.",
-                            "Increase Transparency and Public Engagement in all ministry activities and projects.",
-                            "Strengthen Institutional Capacity and Accountability for effective service delivery.",
-                            "Implement Data-Driven Decision Making through research and community intelligence.",
-                            "Facilitate Peacebuilding and Conflict Resolution in host communities.",
-                            "Promote Sustainable Infrastructure Development in the Niger Delta region."
+                            "Digitize 100% of land records through IGIS for transparent and efficient service delivery.",
+                            "Issue 50,000 Certificates of Occupancy annually to property owners across Imo State.",
+                            "Implement comprehensive urban renewal programs in Owerri, Orlu, and Okigwe.",
+                            "Reduce land disputes by 60% through improved surveying and mapping services.",
+                            "Achieve 80% automation of land administration processes within three years.",
+                            "Develop and implement master plans for all major cities in Imo State.",
+                            "Enhance public access to land information through online portals and mobile applications.",
+                            "Train and certify 1,000 professionals in modern land administration practices.",
+                            "Establish a one-stop-shop for all land-related services at the state secretariat.",
+                            "Implement sustainable housing policies to address urban housing deficits."
                         ].map((goal, index) => (
                             <AnimatedEntrance 
                                 key={index} 

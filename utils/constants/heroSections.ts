@@ -12,23 +12,23 @@ export interface HeroConfig {
  
 export const HERO_CONFIGS = {
   HOME: {
-    title: "Promoting Peace and Development in the Niger Delta",
-    subtitle: "Intelligence. Development. Sustainability.",
-    description: "The Ministry of Niger Delta Affairs and Intelligence coordinates development initiatives, ensures security, and promotes sustainable growth in Imo State's oil-producing communities.",
+    title: "Transforming Land Administration in Imo State",
+    subtitle: "Transparency. Efficiency. Digital Innovation.",
+    description: "The Ministry of Lands, Survey, Housing and Urban Planning is committed to modernizing land administration, ensuring secure land tenure, and promoting sustainable urban development across Imo State.",
     height: 'extra-large' as const,
     alignment: 'left' as const
   },
   
   PROJECTS: {
     title: "Our Development Initiatives",
-    description: "Explore our ongoing and completed projects focused on infrastructure, community development, and environmental protection in the Niger Delta region of Imo State.",
+    description: "Explore our ongoing and completed projects in land administration, urban development, and housing initiatives that are transforming communities across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   TEAM: {
     title: "Our Leadership Team",
-    description: "Meet Prince Dr. Henry Uzor Okafor, Honourable Commissioner for Niger Delta Affairs and Intelligence, and the dedicated team working towards sustainable development in the region.",
+    description: "Meet Chief Barr. Enyinna Victor Onuegbu, KSC, Honourable Commissioner for Lands, Survey and Physical Planning, and the dedicated team committed to transforming land administration in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
     className: "py-16 md:py-24"
@@ -36,36 +36,36 @@ export const HERO_CONFIGS = {
   
   SERVICES: {
     title: "Our Services",
-    description: "The Ministry of Niger Delta Affairs and Intelligence provides comprehensive services including community development, environmental protection, security coordination, and stakeholder engagement in oil-producing communities.",
+    description: "The Ministry of Lands, Survey, Housing and Urban Planning offers comprehensive land administration services, including C of O issuance, land allocation, survey services, urban planning, and development control to support sustainable growth in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
     overlay: false
   },
   
   NEWS: {
-    title: "News & Updates",
-    description: "Stay informed with the latest news, press releases, and announcements from the Ministry of Niger Delta Affairs and Intelligence.",
+    title: "News & Announcements",
+    description: "Stay updated with the latest news, press releases, and public notices from the Ministry of Lands, Survey, Housing and Urban Planning.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   MEDIA: {
     title: "Media Gallery & Success Stories",
-    description: "Explore our visual documentation of development projects, community engagements, and success stories from across the Niger Delta region of Imo State",
+    description: "Explore our visual documentation of land administration projects, urban development initiatives, and success stories from across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   EVENTS: {
-    title: "Community Engagement & Programs",
-    description: "Join us for community development programs, stakeholder meetings, and empowerment initiatives across oil-producing communities in Imo State",
+    title: "Public Engagements & Programs",
+    description: "Stay informed about upcoming public hearings, stakeholder meetings, and community engagement programs related to land administration and urban planning in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   ABOUT: {
-    title: "About the Ministry of Niger Delta Affairs and Intelligence",
-    description: "Dedicated to promoting peace, sustainable development, and security in Imo State's oil-producing communities through strategic coordination and community engagement.",
+    title: "About the Ministry of Lands, Survey, Housing and Urban Planning",
+    description: "The statutory organ of government responsible for land administration, urban spatial planning, and housing policy development across Imo State, ensuring transparent and efficient land management systems.",
     height: 'medium' as const,
     alignment: 'left' as const
   }

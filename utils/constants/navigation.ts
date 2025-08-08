@@ -13,7 +13,7 @@ export const NAV_LINKS: NavLink[] = [
     label: "About Us"
   },
   {
-    href: "/departments",
+    href: "/department",
     label: "Departments & Agencies"
   },
   {
@@ -43,8 +43,7 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const CONTACT_INFO = {
-  address: "Ministry of Niger Delta Affairs and Intelligence, Imo State Government Secretariat, New Owerri, Imo State, Nigeria.",
-  email: "commissioner.ind.solid.min@gmail.com",
-  phone: "+234 803 123 4567",
-  hours: "Monday to Friday, 8:00 AM – 4:00 PM"
+  address: "Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria",
+  email: "[To be provided]",
+  phone: "+234 803 506 6722",
 };

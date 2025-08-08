@@ -13,9 +13,12 @@ export default function Department() {
                     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
                         <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN}>
                             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                                Ministry of Niger Delta Affairs and Intelligence<br />
-                                Departments & Agencies
+                                Ministry of Lands, Survey, Housing<br />
+                                and Urban Planning
                             </h1>
+                            <p className="mt-4 text-xl text-white">
+                                Departments & Agencies
+                            </p>
                         </AnimatedEntrance>
                     </div>
                 </section>
@@ -26,19 +29,138 @@ export default function Department() {
                 sidebarTitle="Our Departments"
                 tabs={[
                     {
-                        id: "administration-hr",
-                        label: "Administration & Human Resources",
+                        id: "land-administration",
+                        label: "Land Administration",
                         content: {
-                            title: "Department of Administration and Human Resources",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Administration and Human Resources",
-                            description: "Administration & Human Resources ensures smooth ministry operations and an effective civil service. The department manages recruitment, training, welfare, and performance management to build a capable workforce that delivers on the ministry’s Niger Delta mandate.",
+                            title: "Department of Land Administration",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Land Administration",
+                            description: "The Department of Land Administration oversees all land-related matters in Imo State, ensuring transparent and efficient land management systems. The department is responsible for land allocation, title documentation, and the implementation of land policies in line with state regulations.",
                             additionalInfo: [
-                                "Oversee recruitment, onboarding, and staff records",
-                                "Coordinate capacity building and training programmes",
-                                "Implement performance management and promotions",
-                                "Ensure staff welfare, discipline, and workplace compliance",
-                                "Streamline administrative processes for efficient service delivery"
+                                "Processing and issuance of Certificates of Occupancy (C-of-O)",
+                                "Management of land allocation and leasehold administration",
+                                "Verification of land titles and processing of land documents",
+                                "Implementation of land use policies and regulations",
+                                "Resolution of land disputes and boundary matters"
+                            ]
+                        }
+                    },
+                    {
+                        id: "survey-mapping",
+                        label: "Survey & Mapping",
+                        content: {
+                            title: "Department of Survey and Mapping",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Survey and Mapping",
+                            description: "The Department of Survey and Mapping is responsible for conducting cadastral, topographical, and engineering surveys across Imo State. The department maintains accurate geospatial data and provides mapping services to support land administration and urban planning.",
+                            additionalInfo: [
+                                "Approval and verification of survey plans",
+                                "Conducting boundary surveys and re-establishment of beacons",
+                                "Production of topographical and cadastral maps",
+                                "Provision of geospatial data for planning and development",
+                                "Maintenance of survey records and control points"
+                            ]
+                        }
+                    },
+                    {
+                        id: "urban-planning",
+                        label: "Urban & Regional Planning",
+                        content: {
+                            title: "Department of Urban and Regional Planning",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Urban and Regional Planning",
+                            description: "The Department of Urban and Regional Planning is responsible for the physical development and spatial organization of urban and rural areas in Imo State. The department formulates and implements policies for sustainable human settlements and infrastructure development.",
+                            additionalInfo: [
+                                "Preparation and implementation of physical development plans",
+                                "Processing and approval of layout plans and building permits",
+                                "Enforcement of urban development control regulations",
+                                "Urban renewal and slum upgrading initiatives",
+                                "Collaboration with local planning authorities"
+                            ]
+                        }
+                    },
+                    {
+                        id: "housing-development",
+                        label: "Housing Development",
+                        content: {
+                            title: "Department of Housing Development",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Housing Development",
+                            description: "The Department of Housing Development formulates and implements housing policies and programs to meet the shelter needs of Imo State residents. The department promotes affordable housing delivery and public-private partnerships in the housing sector.",
+                            additionalInfo: [
+                                "Implementation of state housing policies and programs",
+                                "Development of affordable housing schemes and estates",
+                                "Facilitation of public-private partnerships in housing delivery",
+                                "Regulation of housing standards and building materials",
+                                "Coordination of housing finance and mortgage schemes"
+                            ]
+                        }
+                    },
+                    {
+                        id: "development-control",
+                        label: "Development Control",
+                        content: {
+                            title: "Department of Development Control",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Development Control",
+                            description: "The Department of Development Control ensures compliance with approved physical development plans and building regulations across Imo State. The department enforces development standards and monitors construction activities to maintain orderly urban growth.",
+                            additionalInfo: [
+                                "Enforcement of development control regulations and standards",
+                                "Monitoring and control of building construction activities",
+                                "Removal of illegal and non-conforming developments",
+                                "Processing and approval of building plan applications",
+                                "Public enlightenment on building regulations and standards"
+                            ]
+                        }
+                    },
+                    {
+                        id: "documentation-records",
+                        label: "Documentation & Records",
+                        content: {
+                            title: "Department of Documentation and Records",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Documentation and Records",
+                            description: "The Department of Documentation and Records is responsible for the proper keeping, maintenance, and retrieval of all land and housing records in Imo State. The department ensures the security and integrity of all official documents and facilitates efficient information management.",
+                            additionalInfo: [
+                                "Custody and management of land title documents",
+                                "Digitization and archiving of land and housing records",
+                                "Processing of requests for certified true copies of documents",
+                                "Maintenance of an efficient records management system",
+                                "Provision of search and retrieval services for land documents"
+                            ]
+                        }
+                    },
+                    {
+                        id: "igis",
+                        label: "IGIS Services",
+                        content: {
+                            title: "Imo Geographic Information Service (IGIS)",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Imo Geographic Information Service (IGIS)",
+                            description: "The Imo Geographic Information Service (IGIS) is responsible for digitizing land records, managing geospatial data, and providing land registry services. Established under the Imo State Lands Administration and Geographic Information Service Law 2021, IGIS enhances transparency and efficiency in land administration.",
+                            additionalInfo: [
+                                "Digitization of land records and cadastral mapping",
+                                "Online land title processing and verification",
+                                "Geospatial data management and analysis",
+                                "Land information system development and maintenance",
+                                "Technical support for land administration processes"
+                            ]
+                        }
+                    },
+                    {
+                        id: "legal-services",
+                        label: "Legal Services",
+                        content: {
+                            title: "Department of Legal Services",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Legal Services",
+                            description: "The Department of Legal Services provides legal advisory and support services to the Ministry on all land and housing matters. The department handles litigation, contract vetting, and ensures compliance with land administration laws and regulations in Imo State.",
+                            additionalInfo: [
+                                "Legal advisory services on land and housing matters",
+                                "Drafting and vetting of legal documents and contracts",
+                                "Representation of the ministry in court cases and disputes",
+                                "Review and interpretation of land laws and regulations",
+                                "Handling of land title disputes and litigation matters"
                             ]
                         }
                     },
@@ -47,151 +169,32 @@ export default function Department() {
                         label: "Finance & Accounts",
                         content: {
                             title: "Department of Finance and Accounts",
-                            imageSrc: "/assets/dpt.png",
+                            imageSrc: "/assets/no-image-lg.jpg",
                             imageAlt: "Department of Finance and Accounts",
-                            description: "Finance & Accounts manages public funds with transparency and accountability. The department handles budgeting support, payments, cash management, and financial reporting for programmes and projects across oil‑producing communities.",
+                            description: "The Department of Finance and Accounts manages the financial resources of the Ministry, ensuring proper budgeting, accounting, and financial reporting. The department oversees revenue collection from land transactions and ensures compliance with financial regulations.",
                             additionalInfo: [
-                                "Process payments, grants, and project disbursements",
-                                "Maintain cashbooks, ledgers, and audit‑ready records",
-                                "Prepare periodic financial statements and reports",
-                                "Enforce financial controls and expenditure compliance",
-                                "Support transparency and value‑for‑money in spending"
+                                "Preparation and management of annual budgets",
+                                "Processing of payments and financial transactions",
+                                "Revenue collection and accounting for land-related fees",
+                                "Financial reporting and audit coordination",
+                                "Management of payroll and staff welfare matters"
                             ]
                         }
                     },
                     {
-                        id: "planning-research-statistics",
-                        label: "Planning, Research & Statistics",
+                        id: "admin-hr",
+                        label: "Admin & HR",
                         content: {
-                            title: "Department of Planning, Research, and Statistics",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Planning, Research, and Statistics",
-                            description: "Planning, Research, and Statistics guides evidence‑based development using data and field intelligence. The department conducts studies, tracks KPIs, and aligns projects with state priorities and Niger Delta development goals.",
+                            title: "Department of Administration and Human Resources",
+                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageAlt: "Department of Administration and Human Resources",
+                            description: "The Department of Administration and Human Resources is responsible for the effective management of the Ministry's human capital and administrative functions. The department ensures smooth operations through efficient personnel management and administrative support services.",
                             additionalInfo: [
-                                "Conduct research and needs assessments in host communities",
-                                "Develop multi‑year plans, M&E frameworks, and KPIs",
-                                "Produce policy briefs, dashboards, and progress reports",
-                                "Coordinate stakeholder inputs for data‑driven planning",
-                                "Evaluate outcomes to improve programme impact"
-                            ]
-                        }
-                    },
-                    {
-                        id: "community-development-advocacy",
-                        label: "Community Development & Advocacy",
-                        content: {
-                            title: "Department of Community Development and Advocacy",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Community Development and Advocacy",
-                            description: "Community Development and Advocacy leads engagement with youths, women, and traditional institutions. The department advances empowerment programmes, inclusion, and grievance resolution to promote peace and stability in oil‑producing LGAs.",
-                            additionalInfo: [
-                                "Facilitate youth and women empowerment initiatives",
-                                "Strengthen community leadership and inclusive participation",
-                                "Mediate grievances and foster peacebuilding",
-                                "Coordinate outreach and stakeholder sensitization",
-                                "Document impact stories and community feedback"
-                            ]
-                        }
-                    },
-                    {
-                        id: "oil-company-relations",
-                        label: "Oil Companies & Stakeholder Relations",
-                        content: {
-                            title: "Department of Oil Companies and Stakeholder Relations",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Oil Companies and Stakeholder Relations",
-                            description: "Oil Companies and Stakeholder Relations safeguards host community interests and promotes fair benefits. The department interfaces with operators, regulators, and communities to ensure obligations are met and partnerships deliver local value.",
-                            additionalInfo: [
-                                "Liaise with oil and gas operators and regulators (e.g., NUPRC, NCDMB)",
-                                "Monitor MoUs, CSR commitments, and obligations to communities",
-                                "Resolve disputes and escalate non‑compliance",
-                                "Champion local content and community benefit schemes",
-                                "Facilitate joint visits, townhalls, and periodic reviews"
-                            ]
-                        }
-                    },
-                    {
-                        id: "infrastructure-projects",
-                        label: "Infrastructure & Project Implementation",
-                        content: {
-                            title: "Department of Infrastructure and Project Implementation",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Infrastructure and Project Implementation",
-                            description: "Infrastructure and Project Implementation delivers roads, utilities, and community assets across the Niger Delta zones of Imo State. The department supervises contractors, enforces standards, and ensures timely, safe, and sustainable delivery.",
-                            additionalInfo: [
-                                "Scope, cost, and schedule projects with clear milestones",
-                                "Supervise contractors and enforce quality/specifications",
-                                "Coordinate with Works Ministry and ISOPADEC on delivery",
-                                "Document site progress with geo‑tagged photos and reports",
-                                "Hand over and maintain asset registers for communities"
-                            ]
-                        }
-                    },
-                    {
-                        id: "environmental-protection",
-                        label: "Environmental Protection & Restoration",
-                        content: {
-                            title: "Department of Environmental Protection and Restoration",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Environmental Protection and Restoration",
-                            description: "Environmental Protection and Restoration addresses pollution, remediation, and climate resilience. The department collaborates with NOSDRA and Environment MDAs to prevent spills, restore ecosystems, and protect community health.",
-                            additionalInfo: [
-                                "Respond to oil spills and coordinate remediation efforts",
-                                "Enforce environmental compliance and reporting",
-                                "Promote clean‑up, reforestation, and waste management",
-                                "Support environmental impact assessments (EIAs)",
-                                "Educate communities on environmental safeguards"
-                            ]
-                        }
-                    },
-                    {
-                        id: "intelligence-security",
-                        label: "Intelligence & Security Coordination",
-                        content: {
-                            title: "Department of Intelligence and Security Coordination",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Department of Intelligence and Security Coordination",
-                            description: "Intelligence and Security Coordination integrates community‑based intelligence into development and enforcement. The department works with the Navy, Police, DSS, and NSCDC to deter illegal bunkering, vandalism, and related threats.",
-                            additionalInfo: [
-                                "Gather and analyze field intelligence with community inputs",
-                                "Coordinate joint operations with security agencies",
-                                "Support early‑warning systems and incident response",
-                                "Protect critical infrastructure and project sites",
-                                "Promote lawful livelihoods as alternatives to illicit activity"
-                            ]
-                        }
-                    },
-                    {
-                        id: "legal-compliance",
-                        label: "Legal & Compliance Unit",
-                        content: {
-                            title: "Legal and Compliance Unit",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Legal and Compliance Unit",
-                            description: "The Legal and Compliance Unit provides legal guidance and ensures adherence to statutes, regulations, and contracts. The unit drafts, reviews, and vets documents while supporting dispute resolution and institutional accountability.",
-                            additionalInfo: [
-                                "Draft, review, and vet contracts, MoUs, and SLAs",
-                                "Ensure regulatory and procurement compliance",
-                                "Represent the ministry in legal and mediation matters",
-                                "Maintain legal risk registers and compliance audits",
-                                "Advise departments on policy and statutory obligations"
-                            ]
-                        }
-                    },
-                    {
-                        id: "pr-media",
-                        label: "Public Relations & Media Unit",
-                        content: {
-                            title: "Public Relations and Media Unit",
-                            imageSrc: "/assets/dpt.png",
-                            imageAlt: "Public Relations and Media Unit",
-                            description: "Public Relations and Media manages strategic communications, feedback, and transparency. The unit shares project updates, coordinates media engagements, and ensures open channels with communities and partners.",
-                            additionalInfo: [
-                                "Publish project updates and impact stories across channels",
-                                "Organize press briefings, field coverage, and media tours",
-                                "Manage enquiries, complaints, and stakeholder feedback",
-                                "Maintain brand consistency and public information assets",
-                                "Support transparency and community awareness campaigns"
+                                "Recruitment, training, and development of staff",
+                                "Personnel management and welfare services",
+                                "Office administration and general services",
+                                "Staff discipline and performance management",
+                                "Coordination of meetings and official correspondence"
                             ]
                         }
                     }

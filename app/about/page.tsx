@@ -2,7 +2,7 @@ import Image from "next/image";
 import { 
   FaRegEye, FaBullseye, FaEye, FaClipboardCheck, FaShieldHalved, FaUserTie, FaLightbulb, FaUsers,
   FaBuilding, FaHandshake, FaRoad, FaTree, FaUserShield, FaFileContract, FaGraduationCap,
-  FaChartLine, FaBullhorn
+  FaChartLine, FaBullhorn, FaHouse, FaMapPin, FaFileSignature, FaLandmark, FaCity
 } from "react-icons/fa6";
 import HeroSection from "../../components/HeroSection";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
@@ -20,28 +20,24 @@ export default function About() {
                 <div className="px-4 sm:px-6 lg:px-20">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
                         <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
-                            <Image
-                                src="/assets/no-image.png"
-                                alt="Ministry of Niger Delta Affairs and Intelligence – Overview"
-                                width={600}
-                                height={400}
-                                className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
-                            />
+                                <Image
+                                    src="/assets/no-image.png"
+                                    alt="Imo State Ministry of Lands, Survey, Housing and Urban Planning – Overview"
+                                    width={600}
+                                    height={400}
+                                    className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
+                                />
                         </AnimatedEntrance>
                         <div className="order-1 lg:order-2">
                             <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={200}>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                    The Ministry of Niger Delta Affairs and Intelligence, under the Government of Imo State, serves as a strategic institution dedicated to promoting peace, sustainable development, and security within the state&apos;s oil-producing communities. It functions as a vital link between the state government, host communities, oil and gas operators, and national security agencies.
+                                    The Imo State Ministry of Lands, Survey, Housing and Urban Planning is the statutory organ of government responsible for land administration, urban spatial planning, and the development of housing policy across the state. Guided by modern principles of transparency and accountability, the ministry plays a central role in facilitating equitable land distribution, surveying and mapping services, layout planning, and the issuance of secure land titles, such as Certificates of Occupancy.
                                 </p>
-                            </AnimatedEntrance>
-                            <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={400}>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                    Established to address the unique challenges of the Niger Delta region in Imo State, the Ministry has evolved to integrate community-based intelligence and security coordination. It now plays a vital role in supervising Niger Delta-focused interventions, promoting peace in oil-rich LGAs, and ensuring that community needs are addressed through data-driven policies and effective project implementation.
+                                    Working in collaboration with the Imo State Geographic Information Service (IGIS), the ministry is at the forefront of digitizing land records and modernizing land administration processes. Our comprehensive mandate encompasses land allocation, survey plan approvals, physical planning, development control, and the implementation of urban renewal initiatives across Imo State.
                                 </p>
-                            </AnimatedEntrance>
-                            <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={600}>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-                                    Our work is guided by the principles of transparency, accountability, and innovation in public financial management. We are committed to implementing sound fiscal policies that promote economic stability, attract investments, and create an enabling environment for businesses to thrive. Through strategic partnerships with development agencies and the private sector, we are working to build a more prosperous and economically vibrant Imo State for present and future generations.
+                                    Under the leadership of Chief Barr. Enyinna Victor Onuegbu, KSC, the ministry is committed to implementing Governor Hope Uzodinma's vision for transparent, efficient, and technology-driven land administration that supports sustainable development and enhances public confidence in the state's land management systems.
                                 </p>
                             </AnimatedEntrance>
                         </div>
@@ -68,7 +64,7 @@ export default function About() {
                                     <h3 className="text-2xl font-bold text-gray-900">Our Vision</h3>
                                 </div>
                                 <p className="text-gray-600 leading-relaxed">
-                                    To serve as the primary vehicle for the execution of government plans and programmes aimed at the rapid socio‑economic development of the Niger Delta Region
+                                    To foster a transparent, efficient, and digitally enabled land management and urban planning system that supports sustainable development and public confidence in Imo State.
                                 </p>
                             </div>
                         </AnimatedEntrance>
@@ -83,16 +79,17 @@ export default function About() {
                                     <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
                                 </div>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    To formulate and implement strategic plans, programmes, and initiatives, as well as coordinate the activities of government agencies, host communities, development partners, donor agencies, and other stakeholders to fast‑track the development of the Niger Delta Region
+                                    To administer land and property services with integrity—leveraging digital systems like Imo Land Information Service Centre (IMLISC) for land registration, C of O issuance, and urban planning guidance—while restoring trust and enhancing equitable access.
                                 </p>
+                                <h4 className="font-semibold text-gray-800 mt-4 mb-2">Our Core Objectives:</h4>
                                 <ul className="space-y-3">
                                     {[
-                                        "Ensure effective coordination of interventions in oil‑producing communities",
-                                        "Integrate community‑based intelligence into planning and security",
-                                        "Promote peacebuilding and conflict prevention in host communities",
-                                        "Facilitate youth empowerment and tailored skills programmes",
-                                        "Oversee environmental restoration and sustainable infrastructure",
-                                        "Enhance transparency, accountability, and performance monitoring"
+                                        "Digitize and automate land administration processes through IGIS",
+                                        "Ensure transparent and efficient land title registration and issuance",
+                                        "Promote sustainable urban and regional planning",
+                                        "Implement development control and building regulations",
+                                        "Facilitate affordable housing initiatives",
+                                        "Enhance revenue generation through efficient land use charge administration"
                                     ].map((item, index) => (
                                         <li key={index} className="flex items-start">
                                             <div className="flex-shrink-0 mt-1">
@@ -114,10 +111,10 @@ export default function About() {
                                 {[
                                     { title: "Transparency", icon: <FaEye className="w-6 h-6 text-green-600" /> },
                                     { title: "Accountability", icon: <FaClipboardCheck className="w-6 h-6 text-green-600" /> },
-                                    { title: "Integrity", icon: <FaShieldHalved className="w-6 h-6 text-green-600" /> },
-                                    { title: "Professionalism", icon: <FaUserTie className="w-6 h-6 text-green-600" /> },
-                                    { title: "Innovation", icon: <FaLightbulb className="w-6 h-6 text-green-600" /> },
-                                    { title: "People-Centeredness", icon: <FaUsers className="w-6 h-6 text-green-600" /> }
+                                    { title: "Peacebuilding", icon: <FaShieldHalved className="w-6 h-6 text-green-600" /> },
+                                    { title: "Community Engagement", icon: <FaUsers className="w-6 h-6 text-green-600" /> },
+                                    { title: "Sustainable Development", icon: <FaTree className="w-6 h-6 text-green-600" /> },
+                                    { title: "Data-Driven Approach", icon: <FaChartLine className="w-6 h-6 text-green-600" /> }
                                 ].map((value, index) => (
                                     <div key={index} className="bg-white p-6 rounded-xl shadow-md text-center">
                                         <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -136,74 +133,74 @@ export default function About() {
             <section className="py-12 sm:py-16 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
                     <div className="text-center mb-8 sm:mb-12 md:mb-16">
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                            Our Key Focus Areas
-                        </h2>
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                                Our Core Services
+                            </h2>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                        {/* Financial Policy Development */}
+                        {/* Land Administration */}
+                        <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
+                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                                <FaFileContract className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
+                            </div>
+                            <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
+                                Land Administration
+                            </h3>
+                            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                                Managing land allocation, registration, and documentation including issuance of Certificates of Occupancy and processing of land transactions with transparency and efficiency.
+                            </p>
+                        </div>
+
+                        {/* Survey and Mapping */}
+                        <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
+                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                                <FaChartLine className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
+                            </div>
+                            <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
+                                Survey and Mapping
+                            </h3>
+                            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                                Providing professional surveying services, boundary demarcation, and maintaining accurate geospatial data through modern GIS technology.
+                            </p>
+                        </div>
+
+                        {/* Urban Planning */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <FaBuilding className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Inclusive Development in Oil‑Producing Areas
+                                Urban Planning
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Delivering people‑centred projects and services across host communities, ensuring equitable benefits and sustainable local impact.
+                                Developing and implementing master plans, zoning regulations, and development control measures for sustainable urban growth.
                             </p>
                         </div>
 
-                        {/* Revenue Mobilization and Allocation */}
+                        {/* Housing Development */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                                <FaUserShield className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
+                                <FaHouse className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Intelligence‑Led Security Collaboration
+                                Housing Development
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Integrating community‑based intelligence with security agency efforts to deter illegal bunkering, vandalism, and related threats.
+                                Facilitating affordable housing initiatives and implementing housing policies to meet the shelter needs of Imo State residents.
                             </p>
                         </div>
 
-                        {/* Budgeting and Fiscal Planning */}
+                        {/* Development Control */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                                <FaHandshake className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
+                                <FaShieldHalved className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Strengthen Community–Oil Company Relations
+                                Development Control
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Building effective interfaces among communities, operators, and regulators to uphold obligations and expand local content benefits.
-                            </p>
-                        </div>
-
-                        {/* Debt and Asset Management */}
-                        <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
-                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                                <FaGraduationCap className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
-                            </div>
-                            <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Youth and Women Empowerment
-                            </h3>
-                            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Advancing skills, livelihoods, and inclusion for youths and women through targeted programmes across oil‑producing LGAs.
-                            </p>
-                        </div>
-
-                        {/* Expenditure Monitoring and Reporting */}
-                        <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
-                            <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-                                <FaTree className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
-                            </div>
-                            <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Environmental Protection and Restoration
-                            </h3>
-                            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Preventing and remediating pollution, restoring ecosystems, and promoting resilience in riverine and oil‑producing areas.
+                                Regulating physical development through building plan approvals, compliance monitoring, and enforcement of planning standards.
                             </p>
                         </div>
                     </div>
@@ -216,22 +213,22 @@ export default function About() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
                         <div className="order-2 lg:order-1">
                             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Prince Dr. Henry Uzor Okafor
+                                Chief Barr. Enyinna Victor Onuegbu, KSC
                             </h2>
                             <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
-                                Honourable Commissioner for Niger Delta Affairs and Intelligence
+                                Honourable Commissioner for Lands, Survey and Physical Planning
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                                Appointed in 2024, Prince Dr. Henry Uzor Okafor brings rich experience from public administration and grassroots development. He has aligned the Ministry&apos;s operations with initiatives focused on environmental sustainability, youth empowerment, and regional security.
+                                Chief Barr. Enyinna Victor Onuegbu, KSC, serves as the Honourable Commissioner for Lands, Survey and Physical Planning in Imo State under the administration of His Excellency, Senator Hope Uzodinma. A distinguished legal practitioner and astute administrator, Barr. Onuegbu brings a wealth of experience in public service and governance to his role.
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                Hailing from Oguta LGA, he is respected for diplomatic leadership and conflict resolution, especially in addressing oil spill remediation, community agitation, and resource management. His vision is to strengthen partnerships with communities, security agencies, and development partners for inclusive governance and peace in oil‑producing regions.
+                                Hailing from Umuokoro-Eziama in Ngor Okpala Local Government Area, Barr. Onuegbu is a respected community leader who holds the traditional title of Ebekuodike (Prime Minister) of his community. He is married to Magistrate Uche Onuegbu, and together they are blessed with four children. His career in public service has been marked by a strong commitment to due process, transparency, and the efficient delivery of government services to the people of Imo State.
                             </p>
                         </div>
                         <div className="order-1 lg:order-2">
                             <Image
                                 src="/assets/no-image.png"
-                                alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
+                                alt="Chief Barr. Enyinna Victor Onuegbu, KSC – Honourable Commissioner for Lands, Survey and Physical Planning"
                                 width={500}
                                 height={600}
                                 className="rounded-lg shadow-lg w-full h-auto"
@@ -241,54 +238,48 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Team Section */}
+            {/* Leadership Team Section */}
             <section className="py-12 sm:py-16 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Our Leadership Team</h2>
                         <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                            Meet Hon. Chuk Chukwuemeka and the dedicated team driving the Ministry of Finance and Economic Development&apos;s mission to ensure sound financial management and economic growth in Imo State.
+                            Meet the dedicated leaders driving land administration, urban planning, and housing development in Imo State.
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
-                        {/* Commissioner */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12">
+                        {/* Honourable Commissioner */}
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition-all hover:shadow-xl">
                             <div className="h-64 bg-gray-100 overflow-hidden">
                                 <Image
                                     src="/assets/no-image.png"
-                                    alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
+                                    alt="Chief Barr. Enyinna Victor Onuegbu, KSC – Honourable Commissioner for Lands, Survey and Physical Planning"
                                     width={400}
                                     height={400}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900">Prince Dr. Henry Uzor Okafor</h3>
-                                <p className="text-green-700 font-medium mt-1">Honourable Commissioner for Niger Delta Affairs and Intelligence</p>
-                                <p className="mt-4 text-gray-600">
-                                    Appointed in 2024, he leads security‑aware development in oil‑producing LGAs, strengthening partnerships with communities, security agencies, and development partners.
-                                </p>
+                            <h3 className="text-xl font-bold text-gray-900">Chief Barr. Enyinna Victor Onuegbu, KSC</h3>
+                            <p className="text-green-700 font-medium mt-1">Honourable Commissioner</p>
                             </div>
                         </div>
 
                         {/* Permanent Secretary */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 transition-all hover:shadow-xl">
                             <div className="h-64 bg-gray-100 overflow-hidden">
                                 <Image
                                     src="/assets/no-image.png"
-                                    alt="Barr. Ibe Elieazah – Permanent Secretary"
+                                    alt="[To be provided]"
                                     width={400}
                                     height={400}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900">Barr. Ibe Elieazah</h3>
+                                <h3 className="text-xl font-bold text-gray-900">[To be provided]</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
-                                <p className="mt-4 text-gray-600">
-                                    Chief administrative officer responsible for daily operations, civil service management, and coordination across departments to deliver the ministry’s Niger Delta mandate.
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -304,13 +295,13 @@ export default function About() {
                                 Our Structure
                             </h2>
                             <p className="text-sm sm:text-base md:text-lg text-gray-300 leading-relaxed mb-6">
-                                The Ministry of Niger Delta Affairs and Intelligence operates through a clear structure led by the Commissioner and supported by the Permanent Secretary. Our framework includes an Intelligence arm for security coordination, Liaison/Development Units that bridge host communities and oil firms, and a Media/PR Unit for public engagement—ensuring coordinated delivery across all departments.
+                                The Ministry of Lands, Survey, Housing and Urban Planning operates through a well-defined hierarchical structure designed to effectively manage land administration, urban planning, and housing development across Imo State. Our organizational setup ensures efficient service delivery, policy implementation, and coordination with relevant stakeholders in the built environment sector.
                             </p>
                         </div>
                         <div>
                             <Image
-                                src="/assets/no-image.png"
-                                alt="Ministry of Niger Delta Affairs and Intelligence - Organizational Structure"
+                                src="/assets/no-image-lg.jpg"
+                                alt="Ministry of Lands, Survey, Housing and Urban Planning - Organizational Structure"
                                 width={600}
                                 height={400}
                                 className="rounded-lg shadow-lg w-full h-auto"
@@ -318,94 +309,58 @@ export default function About() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                        {/* Department of Expenditure */}
+                        {/* Land Administration Department */}
+                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
+                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
+                                <FaLandmark className="w-5 h-5 text-white" />
+                            </div>
+                            <h3 className="text-lg font-semibold mb-2">Land Administration</h3>
+                            <p className="text-sm text-gray-400">Manages land allocation, registration, and documentation including C of O issuance and land transactions.</p>
+                        </div>
+
+                        {/* Survey Department */}
+                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
+                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
+                                <FaMapPin className="w-5 h-5 text-white" />
+                            </div>
+                            <h3 className="text-lg font-semibold mb-2">Survey Department</h3>
+                            <p className="text-sm text-gray-400">Responsible for land surveying, mapping, and maintaining geospatial data records.</p>
+                        </div>
+
+                        {/* Urban & Regional Planning */}
+                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
+                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
+                                <FaCity className="w-5 h-5 text-white" />
+                            </div>
+                            <h3 className="text-lg font-semibold mb-2">Urban & Regional Planning</h3>
+                            <p className="text-sm text-gray-400">Handles physical planning, development control, and implementation of urban policies.</p>
+                        </div>
+
+                        {/* Housing Development */}
+                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
+                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
+                                <FaHouse className="w-5 h-5 text-white" />
+                            </div>
+                            <h3 className="text-lg font-semibold mb-2">Housing Development</h3>
+                            <p className="text-sm text-gray-400">Oversees housing policies, programs, and initiatives for affordable housing delivery.</p>
+                        </div>
+
+                        {/* Development Control */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaClipboardCheck className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Administration & Human Resources</h3>
-                            <p className="text-sm text-gray-400">Ensures smooth operations and staffing through recruitment, training, welfare, and performance management across all departments.</p>
+                            <h3 className="text-lg font-semibold mb-2">Development Control</h3>
+                            <p className="text-sm text-gray-400">Ensures compliance with building regulations and approved development plans.</p>
                         </div>
 
-                        {/* Department of Financial Services */}
+                        {/* Documentation & Records */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaUserShield className="w-5 h-5 text-white" />
+                                <FaFileSignature className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Finance & Accounts</h3>
-                            <p className="text-sm text-gray-400">Manages funds with transparency, maintaining records, processing disbursements, and enforcing financial controls for projects and programmes.</p>
-                        </div>
-
-                        {/* Department of Budget */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaChartLine className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Planning, Research & Statistics</h3>
-                            <p className="text-sm text-gray-400">Guides evidence‑based development through studies, KPIs, monitoring, and alignment of interventions with Niger Delta priorities.</p>
-                        </div>
-
-                        {/* Department of Accounts */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaUsers className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Community Development & Advocacy</h3>
-                            <p className="text-sm text-gray-400">Empowers youths and women, strengthens local leadership, and advances inclusive participation and grievance resolution in host communities.</p>
-                        </div>
-
-                        {/* Department of Economic Research */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaHandshake className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Oil Companies & Stakeholder Relations</h3>
-                            <p className="text-sm text-gray-400">Interfaces with operators and regulators, monitors MoUs and CSR obligations, and safeguards host community interests.</p>
-                        </div>
-
-                        {/* Department of Internal Audit */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaRoad className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Infrastructure & Project Implementation</h3>
-                            <p className="text-sm text-gray-400">Delivers roads and community assets, supervises contractors, enforces standards, and documents progress for transparency.</p>
-                        </div>
-
-                        {/* Department of Procurement */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaUserTie className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Environmental Protection & Restoration</h3>
-                            <p className="text-sm text-gray-400">Prevents and remediates pollution, coordinates spill response with NOSDRA, and promotes ecosystem restoration.</p>
-                        </div>
-
-                        {/* Department of HR */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaUserShield className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Intelligence & Security Coordination</h3>
-                            <p className="text-sm text-gray-400">Integrates community‑based intelligence with security agencies to deter illegal bunkering, vandalism, and threats.</p>
-                        </div>
-
-                        {/* Department of ICT */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaFileContract className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Legal & Compliance Unit</h3>
-                            <p className="text-sm text-gray-400">Provides legal guidance, drafts and vets documents, and ensures statutory and procurement compliance across programmes.</p>
-                        </div>
-
-                        {/* Legal Unit */}
-                        <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                            <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
-                                <FaBullhorn className="w-5 h-5 text-white" />
-                            </div>
-                            <h3 className="text-lg font-semibold mb-2">Public Relations & Media Unit</h3>
-                            <p className="text-sm text-gray-400">Publishes project updates and impact stories, manages enquiries and feedback, and coordinates media engagements.</p>
+                            <h3 className="text-lg font-semibold mb-2">Documentation & Records</h3>
+                            <p className="text-sm text-gray-400">Manages land records, titles, and documentation in collaboration with IGIS.</p>
                         </div>
                     </div>
                 </div>

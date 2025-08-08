@@ -62,7 +62,7 @@ export default function Footer() {
                                             Stay Connected with Us
                                         </h2>
                                         <p className="max-w-lg opacity-70 text-sm sm:text-base leading-relaxed">
-                                            Get the latest updates on community projects, empowerment programs, and development news in the Niger Delta region. We&apos;re here to listen and serve our communities.
+                                            Get updates on land administration, survey & mapping, development control, and housing projects across Imo State. We&apos;re committed to transparent, citizen‑focused service.
                                         </p>
                                     </div>
                                 </AnimatedEntrance>
@@ -97,11 +97,11 @@ export default function Footer() {
                                                 className="h-8 w-8 sm:h-10 sm:w-10 md:h-[64px] md:w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                                             />
                                         </div>
-                                        <span className="text-base sm:text-lg md:text-xl font-bold flex-1 leading-tight transition-colors duration-300 group-hover:text-green-300">Ministry of Niger Delta Affairs and Intelligence</span>
+                                        <span className="text-base sm:text-lg md:text-xl font-bold flex-1 leading-tight transition-colors duration-300 group-hover:text-green-300">Imo State Ministry of Lands, Survey, Housing and Urban Planning</span>
                                     </div>
                                 </Link>
                                 <p className="text-gray-300 leading-relaxed text-sm sm:text-base hover:text-gray-200 transition-colors duration-300">
-                                    Dedicated to promoting peace, sustainable development, and security in Imo State&apos;s oil-producing communities through strategic coordination and community engagement.
+                                    Responsible for land administration, surveying and mapping, urban planning, and housing policy—issuing secure land titles and advancing digitization through IGIS for efficient, transparent services.
                                 </p>
                             </div>
                         </AnimatedEntrance>
@@ -163,10 +163,11 @@ export default function Footer() {
                                     </button>
                                 </form>
                                 <div className="mt-4 sm:mt-6 space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-300 grid">
-                                    <a href="tel:+2348031234567" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">+234 803 123 4567</a>
-                                    <a href="mailto:commissioner.ind.solid.min@gmail.com" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">commissioner.ind.solid.min@gmail.com</a>
+                                    <a href="tel:+2348035066722" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">+234 803 506 6722</a>
+                                    <a href="tel:+2348038704368" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">+234 803 870 4368</a>
+                                    <a href="mailto:[To be provided]" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">[To be provided]</a>
                                     <p className="leading-relaxed hover:text-gray-200 transition-colors duration-300">
-                                        Ministry of Niger Delta Affairs and Intelligence, Imo State Government Secretariat, New Owerri, Imo State, Nigeria.
+                                        Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria
                                     </p>
                                     <div className="flex space-x-4 mt-2">
                                         <a href="https://facebook.com/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">

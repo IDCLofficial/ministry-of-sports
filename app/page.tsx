@@ -29,29 +29,29 @@ export default function Home() {
         <div className="px-4 sm:px-6 lg:px-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
-              <Image
-                src="/assets/no-image.png"
-                alt="Ministry of Niger Delta Affairs and Intelligence – Overview"
-                width={600}
-                height={400}
-                className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
-              />
+                <Image
+                  src="/assets/no-image.png"
+                  alt="Imo State Ministry of Lands, Survey, Housing and Urban Planning – Overview"
+                  width={600}
+                  height={400}
+                  className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
+                />
             </AnimatedEntrance>
             <div className="grid gap-4 sm:gap-6 md:gap-8 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN} delay={200}>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                  About the Ministry of Niger Delta Affairs and Intelligence
+                  Welcome to the Ministry of Lands, Survey, Housing and Urban Planning
                 </h2>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={400}>
                 <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                  The Ministry of Niger Delta Affairs and Intelligence, under the Government of Imo State, serves as a strategic institution dedicated to promoting peace, sustainable development, and security within the state&apos;s oil-producing communities. It functions as a vital link between the state government, host communities, oil and gas operators, and national security agencies.
+                  The Imo State Ministry of Lands, Survey, Housing and Urban Planning is the statutory organ of government responsible for land administration, urban spatial planning, and the development of housing policy across the state. Guided by modern principles of transparency and accountability, the ministry plays a central role in facilitating equitable land distribution, surveying and mapping services, layout planning, and the issuance of secure land titles, such as Certificates of Occupancy.
                 </p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
                 <Link href="/about">
                   <button className="bg-[#4CAF50]/90 hover:bg-[#4CAF50] cursor-pointer w-fit text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:transform hover:scale-105 transition-all duration-300">
-                    Learn more about us
+                    Learn More About Our Services
                   </button>
                 </Link>
               </AnimatedEntrance>
@@ -69,18 +69,18 @@ export default function Home() {
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
                   A Message from the Honorable Commissioner
                 </h2>
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">Prince Dr. Henry Uzor Okafor</h3>
-                <p className="text-gray-600 text-sm mb-4">Honourable Commissioner for Niger Delta Affairs and Intelligence</p>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">Chief Barr. Enyinna Victor Onuegbu, KSC</h3>
+                <p className="text-gray-600 text-sm mb-4">Honourable Commissioner for Lands, Survey, Housing and Urban Planning</p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_LEFT} delay={200}>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                  Under the visionary leadership of Governor Hope Uzodimma, we are committed to transforming Imo State&apos;s economy through prudent financial management, innovative revenue generation strategies, and sustainable economic development initiatives. Our focus remains on transparency, accountability, and the efficient utilization of state resources to deliver quality services and infrastructure that will improve the lives of all Imo citizens.
+                  Under the visionary leadership of His Excellency, Senator Hope Uzodinma, we are committed to transforming land administration in Imo State through transparency, efficiency, and digital innovation. Our focus remains on simplifying land transactions, ensuring secure land titles, and promoting sustainable urban development that benefits all Imolites.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                  As Commissioner, I am honored to serve in a time when sound financial management is key to our state&apos;s future. We are passionate about unlocking economic opportunities for every Imolite — from rural communities to urban centers. Through strategic partnerships, fiscal reforms, and impactful programs, we are laying the foundation for a more prosperous and economically vibrant Imo State.
+                  As your Commissioner, I am dedicated to eliminating irregularities in land administration and restoring public trust in our systems. Through the Imo Geographic Information Service (IGIS), we are digitizing land records to ensure efficient service delivery and eliminate fraud. Our goal is to make land transactions seamless, transparent, and accessible to all citizens.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                  I invite all citizens, institutions, and investors to partner with us as we position Imo for finance-driven prosperity. Together, we can build a stronger, more prosperous Imo State for future generations.
+                  I invite all citizens, investors, and development partners to work with us in building a modern, well-planned Imo State. Together, we can create sustainable communities and unlock the full potential of our land resources for the benefit of present and future generations.
                 </p>
               </AnimatedEntrance>
               {/* <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
@@ -93,10 +93,10 @@ export default function Home() {
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
                   <Image
                     src="/assets/no-image.png"
-                    alt="Prince Dr. Henry Uzor Okafor – Honourable Commissioner for Niger Delta Affairs and Intelligence"
+                    alt="Chief Barr. Enyinna Victor Onuegbu, KSC – Honourable Commissioner for Lands, Survey, Housing and Urban Planning"
                     width={500}
                     height={600}
-                  className="rounded-lg shadow-lg w-full h-auto"
+                    className="rounded-lg shadow-lg w-full h-auto"
                   />
               </AnimatedEntrance>
             </div>
@@ -109,10 +109,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN} className="text-center mb-6 sm:mb-8 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-4">
-              Our Key Programs
+              Our Core Services
             </h2>
             <p className="text-gray-300 max-w-3xl mx-auto text-sm sm:text-base">
-              Advancing inclusive development, intelligence‑led security, strong community–operator relations, youth empowerment, and environmental restoration across oil‑producing communities
+              Delivering efficient and transparent land administration, urban planning, and housing development services to the people of Imo State through innovation and digital transformation
             </p>
           </AnimatedEntrance>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
@@ -122,9 +122,9 @@ export default function Home() {
                 <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <FaLightbulb size="1.75em" className="text-green-600" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Inclusive Development in Oil‑Producing Areas</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Land Administration</h3>
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
-                  Delivering people‑centred projects and services across host communities for equitable and sustainable local impact
+                  Managing land resources through transparent processes for title issuance, land allocation, and property registration
                 </p>
                 <Link href="/projects" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
@@ -137,9 +137,9 @@ export default function Home() {
                 <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <FaHandsHolding size="1.75em" className="text-green-600" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Intelligence‑Led Security Collaboration</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Survey & Mapping</h3>
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
-                  Integrating community‑based intelligence with security agencies to deter illegal bunkering and protect vital assets
+                  Providing accurate geospatial data, survey plans, and boundary demarcation services for proper land management
                 </p>
                 <Link href="/projects" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
@@ -152,9 +152,9 @@ export default function Home() {
                 <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <FaUsers size="1.75em" className="text-green-600" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Youth and Women Empowerment</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Urban Planning</h3>
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
-                  Advancing skills, livelihoods, and inclusion for youths and women through targeted programmes across oil‑producing LGAs
+                  Guiding sustainable urban development through master planning, development control, and building regulations
                 </p>
                 <Link href="/projects" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
@@ -167,9 +167,9 @@ export default function Home() {
                 <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-3 sm:mb-4">
                   <FaHandsHolding size="1.75em" className="text-green-600" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Strengthen Community–Oil Company Relations</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-base sm:text-lg md:text-xl">Housing Development</h3>
                 <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 leading-relaxed flex-grow">
-                  Building effective interfaces with operators and regulators to uphold obligations and expand local content benefits
+                  Promoting affordable housing solutions and implementing sustainable housing policies across Imo State
                 </p>
                 <Link href="/services" className="text-green-600 font-medium text-xs sm:text-sm hover:text-green-700 transition-colors inline-block">
                   Learn More →
@@ -197,18 +197,18 @@ export default function Home() {
         <div className="px-4 sm:px-6 lg:px-20 relative z-10">
           <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN} className="text-center mb-6 sm:mb-8 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 sm:mb-4">
-              Our Valued Partners
+              Our Key Partners
             </h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
-              Collaborating with agencies, operators, security institutions, and civil society to advance development, peace, and environmental restoration in oil‑producing communities
+              Collaborating with government agencies, professional bodies, and development partners to deliver efficient land administration and urban development services across Imo State
             </p>
           </AnimatedEntrance>
           <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
-            {[{ name: 'NDDC', logo: '/assets/no-image.png' },
-              { name: 'ISOPADEC', logo: '/assets/no-image.png' },
-              { name: 'NOSDRA', logo: '/assets/no-image.png' },
-              { name: 'NUPRC', logo: '/assets/no-image.png' },
-              { name: 'NCDMB', logo: '/assets/no-image.png' },
+            {[{ name: 'IGIS', logo: '/assets/no-image.png' },
+              { name: 'Imo Housing Corporation', logo: '/assets/no-image.png' },
+              { name: 'OCDA', logo: '/assets/no-image.png' },
+              { name: 'Ministry of Works', logo: '/assets/no-image.png' },
+              { name: 'NITP', logo: '/assets/no-image.png' },
             ].map((partner, index) => (
               <AnimatedEntrance
                 key={partner.name}

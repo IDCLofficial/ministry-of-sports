@@ -7,38 +7,39 @@ export interface StatisticItem {
 export const HOME_STATISTICS: StatisticItem[] = [
   {
     value: 27,
-    label: 'LGAs Covered in Imo State'
+    label: 'LGAs Served in Imo State'
   },
   {
-    value: 10,
-    label: 'Specialized Departments'
+    value: 6,
+    label: 'Service Categories'
   },
   {
-    value: 15,
-    label: 'Key Development Projects'
-  },
-  {
-    value: 20,
+    value: 1000,
     suffix: '+',
-    label: 'Partner Organizations'
+    label: 'Land Titles Processed Annually'
+  },
+  {
+    value: 3,
+    label: 'Key Partner Agencies'
   }
 ];
 
 export const PROJECTS_STATISTICS: StatisticItem[] = [
   {
-    value: 8,
-    label: 'Ongoing Projects'
+    value: 5,
+    label: 'Ongoing Urban Development Projects'
   },
   {
-    value: 7,
-    label: 'Completed Projects'
+    value: 12,
+    label: 'Housing Estates Completed'
   },
   {
-    value: 3,
-    label: 'Oil-Producing LGAs'
+    value: 27,
+    label: 'LGAs with Digital Land Records'
   },
   {
-    value: 15,
-    label: 'Community Engagements'
+    value: 5000,
+    suffix: '+',
+    label: 'Land Titles Digitized'
   }
 ];
