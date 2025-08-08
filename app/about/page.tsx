@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { 
-  FaRegEye, FaBullseye, FaEye, FaClipboardCheck, FaShieldHalved, FaUserTie, FaLightbulb, FaUsers,
-  FaBuilding, FaHandshake, FaRoad, FaTree, FaUserShield, FaFileContract, FaGraduationCap,
-  FaChartLine, FaBullhorn, FaHouse, FaMapPin, FaFileSignature, FaLandmark, FaCity
+  FaRegEye, FaBullseye, FaEye, FaClipboardCheck, FaShieldHalved, FaUsers,
+  FaBuilding, FaFileContract,
+  FaChartLine, FaHouse, FaMapPin, FaFileSignature, FaLandmark, FaCity,
+  FaTree
 } from "react-icons/fa6";
 import HeroSection from "../../components/HeroSection";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
@@ -37,7 +38,7 @@ export default function About() {
                                     Working in collaboration with the Imo State Geographic Information Service (IGIS), the ministry is at the forefront of digitizing land records and modernizing land administration processes. Our comprehensive mandate encompasses land allocation, survey plan approvals, physical planning, development control, and the implementation of urban renewal initiatives across Imo State.
                                 </p>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-                                    Under the leadership of Chief Barr. Enyinna Victor Onuegbu, KSC, the ministry is committed to implementing Governor Hope Uzodinma's vision for transparent, efficient, and technology-driven land administration that supports sustainable development and enhances public confidence in the state's land management systems.
+                                    Under the leadership of Chief Barr. Enyinna Victor Onuegbu, KSC, the ministry is committed to implementing Governor Hope Uzodinma&apos;s vision for transparent, efficient, and technology-driven land administration that supports sustainable development and enhances public confidence in the state&apos;s land management systems.
                                 </p>
                             </AnimatedEntrance>
                         </div>

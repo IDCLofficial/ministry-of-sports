@@ -92,7 +92,7 @@ export default function Services() {
                                     Physical & Urban Planning
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Comprehensive urban planning services to guide sustainable development and organized growth across Imo State's urban and rural areas.
+                                    Comprehensive urban planning services to guide sustainable development and organized growth across Imo State&apos;s urban and rural areas.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
