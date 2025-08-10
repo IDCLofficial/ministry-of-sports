@@ -85,7 +85,7 @@ export default function Contact() {
                             </AnimatedEntrance>
                             <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_LEFT} delay={200}>
                                 <p className="text-gray-600 mb-12 leading-relaxed">
-                                    Reach out to the Imo State Ministry of Lands, Survey, Housing and Urban Planning for enquiries, feedback, or partnership opportunities. We are here to assist you.
+                                    Reach out to the Imo State Ministry of Sports and Youth Development for enquiries, feedback, or partnership opportunities. We are here to assist you with sports development, youth empowerment, and talent identification initiatives.
                                 </p>
                             </AnimatedEntrance>
 
@@ -98,8 +98,10 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
                                         <div className="space-y-1">
-                                            <a href="tel:2348035066722" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">234 803 506 6722</a>
-                                            <a href="tel:2348038704368" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">234 803 870 4368</a>
+                                            <p className="text-gray-600 text-sm mb-2">Sports Development Hotline:</p>
+                                            <a href="tel:2348035066722" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">[To be provided]</a>
+                                            <p className="text-gray-600 text-sm mb-1 mt-2">Youth Programs:</p>
+                                            <a href="tel:2348038704368" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">[To be provided]</a>
                                         </div>
                                     </div>
                                 </AnimatedEntrance>
@@ -112,7 +114,7 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Office Address</h3>
                                         <p className="text-gray-600">
-                                            Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria
+                                            Block 1, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State, Nigeria
                                         </p>
                                     </div>
                                 </AnimatedEntrance>
@@ -123,7 +125,8 @@ export default function Contact() {
                                         <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                             <FaShare className="w-6 h-6 text-white" />
                                         </div>
-                                        <h3 className="text-xl font-bold text-gray-900 mb-2">Socials</h3>
+                                        <h3 className="text-xl font-bold text-gray-900 mb-2">Follow Our Sports Updates</h3>
+                                        <p className="text-gray-600 text-sm mb-3">Stay connected for sports news & youth programs</p>
                                         <div className="flex space-x-3 text-white">
                                             <a href="https://facebook.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaSquareFacebook />
@@ -146,7 +149,12 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
                                         <div className="space-y-1">
-                                            <a href="mailto:[To be provided]" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                                            <p className="text-gray-600 text-sm mb-2">General Inquiries:</p>
+                                            <a href="mailto:info@imosports.gov.ng" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                                                [To be provided]
+                                            </a>
+                                            <p className="text-gray-600 text-sm mb-1 mt-2">Youth Programs:</p>
+                                            <a href="mailto:youth@imosports.gov.ng" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
                                                 [To be provided]
                                             </a>
                                         </div>
@@ -160,7 +168,7 @@ export default function Contact() {
                             <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-shadow duration-300">
                                 <form onSubmit={handleSubmit} noValidate className="space-y-6">
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">SEND US A MESSAGE</h3>
-                                <p className="text-gray-600 mb-6 text-sm">Please fill out the form below to reach us directly. We value your inquiries, feedback, and concerns.</p>
+                                <p className="text-gray-600 mb-6 text-sm">Please fill out the form below to reach us directly. We value your inquiries about sports development, youth empowerment programs, talent identification, and partnership opportunities.</p>
                                     <div>
                                         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                                             Name
@@ -180,7 +188,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                                            Company
+                                            Organization/Club
                                         </label>
                                         <input
                                             type="text"
@@ -189,7 +197,7 @@ export default function Contact() {
                                             value={formValues.company}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                                            placeholder="Your organization's name"
+                                            placeholder="Your organization, sports club, or institution"
                                         />
                                     </div>
                                     <div>
@@ -245,7 +253,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                                            Message or Complaint
+                                            Message or Inquiry
                                         </label>
                                         <textarea
                                             id="message"
@@ -256,7 +264,7 @@ export default function Contact() {
                                             aria-invalid={Boolean(errors.message)}
                                             aria-describedby={errors.message ? "message-error" : undefined}
                                             className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent resize-none ${errors.message ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-green-500"}`}
-                                            placeholder="Type your message here..."
+                                            placeholder="Tell us about your sports development needs, youth program inquiries, or partnership proposals..."
                                         ></textarea>
                                         {errors.message && <p id="message-error" className="mt-2 text-sm text-red-600">{errors.message}</p>}
                                     </div>
@@ -292,7 +300,7 @@ export default function Contact() {
                                 allowFullScreen
                                 aria-hidden="false"
                                 tabIndex={0}
-                                    title="Imo State Ministry of Lands, Survey, Housing and Urban Planning Location"
+                                    title="Imo State Ministry of Sports and Youth Development Location"
                             ></iframe>
                         </div>
                         <p className="text-sm text-gray-500 mt-2">

@@ -11,30 +11,33 @@ import Image from "next/image";
 const SPECIAL_PROJECTS = [
     {
         number: 1,
-        title: "Land Titling & Regularization Program",
-        description: "A comprehensive initiative to issue Certificates of Occupancy and regularize land titles across Imo State, bringing more properties into the formal land administration system.",
-        location: "Statewide Implementation",
-        category: "Land Administration",
-        status: "Ongoing",
-        partners: "IGIS, Local Government Areas, Traditional Rulers"
+        title: "Completion of Ultra-Modern Indoor Sports Hall/Gym Complex",
+        description: "Development of a state-of-the-art indoor sports facility to enhance training capabilities and host major sporting events in Imo State.",
+        location: "Owerri",
+        category: "Sports Infrastructure",
+        status: "In Progress",
+        partners: "Ministry of Sports, Construction Partners",
+        budget: "₦200M"
     },
     {
         number: 2,
-        title: "Digital Land Registry Implementation",
-        description: "Modernization of land records through the Imo Geographic Information Service (IGIS) for efficient land administration and transparent service delivery.",
-        location: "Imo State Secretariat, Owerri",
-        category: "Digital Transformation",
-        status: "Active",
-        partners: "IGIS, Ministry of Digital Economy"
+        title: "Construction of New Modern Hostel Complex",
+        description: "Building modern accommodation facilities for athletes and sports personnel to support training programs and competitions.",
+        location: "Owerri",
+        category: "Sports Infrastructure",
+        status: "In Progress",
+        partners: "Ministry of Sports, Construction Partners",
+        budget: "₦200M"
     },
     {
         number: 3,
-        title: "Urban Renewal & Slum Upgrading Initiative",
-        description: "Comprehensive urban renewal program focusing on infrastructure development, slum upgrading, and improved urban planning in major cities across Imo State.",
-        location: "Owerri, Orlu, Okigwe",
-        category: "Urban Development",
-        status: "Ongoing",
-        partners: "Owerri Capital Development Authority, Local Communities"
+        title: "Establishment of Imo State Sports Academy",
+        description: "Creating a comprehensive sports academy for systematic talent identification, training, and development of young athletes.",
+        location: "Owerri",
+        category: "Talent Development",
+        status: "Planning",
+        partners: "Ministry of Sports, Educational Partners",
+        budget: "₦120M"
     }
 ];
 
@@ -51,11 +54,11 @@ export default function Projects() {
             <section className="py-12 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
                     <div className="text-center mb-8">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Development Initiatives</h2>
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Sports Development Projects</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Explore our key projects and initiatives aimed at modernizing land administration, enhancing urban development, 
-                            and providing efficient services to the people of Imo State. Each project reflects our commitment to transparency, 
-                            digital transformation, and sustainable development in land management and urban planning.
+                            Discover our transformative sports infrastructure and development projects designed to elevate sporting excellence in Imo State. 
+                            Each initiative reflects our commitment to building world-class facilities, nurturing talent, and creating opportunities 
+                            for youth empowerment through sports and recreation.
                         </p>
                     </div>
                 </div>
@@ -67,15 +70,15 @@ export default function Projects() {
                     <div className="mb-8">
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Project Updates</h3>
                         <p className="text-gray-600 mb-6">
-                            Stay informed about our ongoing and upcoming initiatives in land administration, urban planning, and housing development 
-                            across Imo State. Each project is designed to enhance service delivery and promote sustainable development in our communities.
+                            Stay informed about our ongoing and upcoming sports infrastructure and development initiatives 
+                            across Imo State. Each project is designed to enhance sporting excellence, youth empowerment, and community engagement through sports.
                         </p>
                         <ul className="list-disc list-inside text-gray-600 space-y-2 mb-8">
-                            <li>Land titling and regularization programs</li>
-                            <li>Digital transformation of land records</li>
-                            <li>Urban renewal and slum upgrading initiatives</li>
-                            <li>Infrastructure development projects</li>
-                            <li>Stakeholder engagement and capacity building</li>
+                            <li>Sports infrastructure development and facility upgrades</li>
+                            <li>Talent identification and development programs</li>
+                            <li>Youth empowerment and capacity building initiatives</li>
+                            <li>Stadium construction and renovation projects</li>
+                            <li>Sports academy establishment and training programs</li>
                         </ul>
                     </div>
 
@@ -125,6 +128,12 @@ export default function Projects() {
                                                 <span className="text-gray-600 w-24 flex-shrink-0">Category:</span>
                                                 <span className="text-gray-900">{project.category}</span>
                                             </div>
+                                            {project.budget && (
+                                                <div className="flex items-start">
+                                                    <span className="text-gray-600 w-24 flex-shrink-0">Budget:</span>
+                                                    <span className="text-gray-900 font-semibold">{project.budget}</span>
+                                                </div>
+                                            )}
                                             <div className="flex items-start">
                                                 <span className="text-gray-600 w-24 flex-shrink-0">Partners:</span>
                                                 <span className="text-gray-900">{project.partners}</span>
@@ -171,22 +180,22 @@ export default function Projects() {
                     <div className="text-center mb-10">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            The Ministry of Lands, Survey, Housing and Urban Planning is committed to transforming land administration and urban development in Imo State through innovation, transparency, and efficient service delivery.
+                            The Ministry of Sports and Youth Development is committed to transforming sports development and youth empowerment in Imo State through world-class infrastructure, talent nurturing, and comprehensive sports programs.
                         </p>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {[
-                            "Digitize 100% of land records through IGIS for transparent and efficient service delivery.",
-                            "Issue 50,000 Certificates of Occupancy annually to property owners across Imo State.",
-                            "Implement comprehensive urban renewal programs in Owerri, Orlu, and Okigwe.",
-                            "Reduce land disputes by 60% through improved surveying and mapping services.",
-                            "Achieve 80% automation of land administration processes within three years.",
-                            "Develop and implement master plans for all major cities in Imo State.",
-                            "Enhance public access to land information through online portals and mobile applications.",
-                            "Train and certify 1,000 professionals in modern land administration practices.",
-                            "Establish a one-stop-shop for all land-related services at the state secretariat.",
-                            "Implement sustainable housing policies to address urban housing deficits."
+                            "Complete construction of ultra-modern indoor sports hall/gym complex worth ₦200M in Owerri.",
+                            "Establish Imo State Sports Academy for systematic talent identification and development.",
+                            "Construct Olympic-standard swimming pool and upgrade Dan Anyiam Stadium facilities.",
+                            "Build 30,000-capacity modern stadium in Owerri and 10,000-capacity zonal stadium in Orlu.",
+                            "Identify and develop over 1,000 young talents across 17 sports disciplines annually.",
+                            "Renovate and equip existing sports facilities including Grasshoppers International Handball Stadium.",
+                            "Implement comprehensive youth empowerment programs reaching 5,000 beneficiaries yearly.",
+                            "Establish partnerships with international sports organizations for coaching upgrades.",
+                            "Create modern hostel complex worth ₦200M for athletes and sports personnel.",
+                            "Develop grassroots sports programs in all 27 Local Government Areas of Imo State."
                         ].map((goal, index) => (
                             <AnimatedEntrance 
                                 key={index} 

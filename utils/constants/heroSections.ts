@@ -12,31 +12,31 @@ export interface HeroConfig {
  
 export const HERO_CONFIGS = {
   HOME: {
-    title: "Transforming Land Administration in Imo State",
-    subtitle: "Transparency. Efficiency. Digital Innovation.",
-    description: "The Ministry of Lands, Survey, Housing and Urban Planning is committed to modernizing land administration, ensuring secure land tenure, and promoting sustainable urban development across Imo State.",
+    title: "Ministry of Sports and Youth Development",
+    subtitle: "Empowering Youth. Building Champions. Fostering Excellence.",
+    description: "Welcome to the Ministry of Youth and Sports Development, Imo State - the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential.",
     height: 'extra-large' as const,
     alignment: 'left' as const
   },
   
   PROJECTS: {
-    title: "Our Development Initiatives",
-    description: "Explore our ongoing and completed projects in land administration, urban development, and housing initiatives that are transforming communities across Imo State.",
+    title: "Our Sports Infrastructure Projects",
+    description: "Explore our ongoing and completed sports infrastructure projects, including stadium construction, sports complexes, and facility upgrades that are transforming sports development across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   TEAM: {
     title: "Our Leadership Team",
-    description: "Meet Chief Barr. Enyinna Victor Onuegbu, KSC, Honourable Commissioner for Lands, Survey and Physical Planning, and the dedicated team committed to transforming land administration in Imo State.",
+    description: "Meet Hon. Obinna Evaristus Onyeocha, Honourable Commissioner for Sports and Youth Development, and the dedicated team committed to transforming sports development and youth empowerment in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
     className: "py-16 md:py-24"
   },
   
   SERVICES: {
-    title: "Our Services",
-    description: "The Ministry of Lands, Survey, Housing and Urban Planning offers comprehensive land administration services, including C of O issuance, land allocation, survey services, urban planning, and development control to support sustainable growth in Imo State.",
+    title: "Our Programs & Services",
+    description: "The Ministry of Sports and Youth Development offers comprehensive programs including talent identification, capacity-building training, sports infrastructure development, youth empowerment, and grassroots sports development to foster sporting excellence in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
     overlay: false
@@ -44,28 +44,28 @@ export const HERO_CONFIGS = {
   
   NEWS: {
     title: "News & Announcements",
-    description: "Stay updated with the latest news, press releases, and public notices from the Ministry of Lands, Survey, Housing and Urban Planning.",
+    description: "Stay updated with the latest news, press releases, and public notices from the Ministry of Sports and Youth Development, including sports events, athlete achievements, and youth empowerment initiatives.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   MEDIA: {
     title: "Media Gallery & Success Stories",
-    description: "Explore our visual documentation of land administration projects, urban development initiatives, and success stories from across Imo State.",
+    description: "Explore our visual documentation of sports events, infrastructure projects, athlete achievements, and youth empowerment success stories from across Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   EVENTS: {
-    title: "Public Engagements & Programs",
-    description: "Stay informed about upcoming public hearings, stakeholder meetings, and community engagement programs related to land administration and urban planning in Imo State.",
+    title: "Sports Events & Youth Programs",
+    description: "Stay informed about upcoming sports competitions, youth marathons, talent identification programs, and community engagement events related to sports development and youth empowerment in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const
   },
   
   ABOUT: {
-    title: "About the Ministry of Lands, Survey, Housing and Urban Planning",
-    description: "The statutory organ of government responsible for land administration, urban spatial planning, and housing policy development across Imo State, ensuring transparent and efficient land management systems.",
+    title: "About the Ministry of Sports and Youth Development",
+    description: "The statutory organ of government responsible for sports development, youth empowerment, talent identification, and sports infrastructure development across Imo State, ensuring comprehensive sports programs and youth leadership training.",
     height: 'medium' as const,
     alignment: 'left' as const
   }

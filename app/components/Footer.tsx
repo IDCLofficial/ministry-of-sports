@@ -62,7 +62,7 @@ export default function Footer() {
                                             Stay Connected with Us
                                         </h2>
                                         <p className="max-w-lg opacity-70 text-sm sm:text-base leading-relaxed">
-                                            Get updates on land administration, survey & mapping, development control, and housing projects across Imo State. We&apos;re committed to transparent, citizen‑focused service.
+                                            Get updates on sports development, youth empowerment programs, talent identification initiatives, and infrastructure projects across Imo State. We&apos;re committed to building champions and empowering youth.
                                         </p>
                                     </div>
                                 </AnimatedEntrance>
@@ -97,11 +97,11 @@ export default function Footer() {
                                                 className="h-8 w-8 sm:h-10 sm:w-10 md:h-[64px] md:w-auto object-contain transition-transform duration-300 group-hover:scale-105"
                                             />
                                         </div>
-                                        <span className="text-base sm:text-lg md:text-xl font-bold flex-1 leading-tight transition-colors duration-300 group-hover:text-green-300">Imo State Ministry of Lands, Survey, Housing and Urban Planning</span>
+                                        <span className="text-base sm:text-lg md:text-xl font-bold flex-1 leading-tight transition-colors duration-300 group-hover:text-green-300">Imo State Ministry of Sports and Youth Development</span>
                                     </div>
                                 </Link>
                                 <p className="text-gray-300 leading-relaxed text-sm sm:text-base hover:text-gray-200 transition-colors duration-300">
-                                    Responsible for land administration, surveying and mapping, urban planning, and housing policy—issuing secure land titles and advancing digitization through IGIS for efficient, transparent services.
+                                    Responsible for sports development, youth empowerment, talent identification, and sports infrastructure development—building champions and fostering sporting excellence through comprehensive programs and strategic partnerships.
                                 </p>
                             </div>
                         </AnimatedEntrance>
@@ -163,11 +163,10 @@ export default function Footer() {
                                     </button>
                                 </form>
                                 <div className="mt-4 sm:mt-6 space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-300 grid">
-                                    <a href="tel:+2348035066722" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">+234 803 506 6722</a>
-                                    <a href="tel:+2348038704368" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">+234 803 870 4368</a>
+                                    <span className="hover:text-green-300 transition-colors duration-300">[To be Provided]</span>
                                     <a href="mailto:[To be provided]" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">[To be provided]</a>
                                     <p className="leading-relaxed hover:text-gray-200 transition-colors duration-300">
-                                        Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria
+                                        Block 1, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State, Nigeria
                                     </p>
                                     <div className="flex space-x-4 mt-2">
                                         <a href="https://facebook.com/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
@@ -187,7 +186,7 @@ export default function Footer() {
 
                     <AnimatedEntrance {...ANIMATION_PRESETS.SECTION_FADE_IN} delay={600}>
                         <div className="border-t border-gray-600 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-6 md:pt-8 text-center">
-                            <p className="text-gray-300 text-sm sm:text-base hover:text-white transition-colors duration-300">Imo State Government</p>
+                            <p className="text-gray-300 text-sm sm:text-base hover:text-white transition-colors duration-300">All Right Reserve Imo 2025</p>
                         </div>
                     </AnimatedEntrance>
                 </div>

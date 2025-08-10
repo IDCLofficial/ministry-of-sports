@@ -1,164 +1,300 @@
 {
-  "ministry_name": "Imo State Ministry of Lands, Survey, Housing and Urban Planning",
-  "website_recommendations": {
-    "home": {
-      "page_title": "Home",
-      "recommendations": {
-        "layout_overview": {
-          "logo_title": "Imo State Ministry of Lands, Survey & Physical Planning",
-          "main_menu_tabs": [
-            "Home",
-            "About Us / Pages", 
-            "Departments",
-            "Services",
-            "Contact"
-          ]
+  "ministry_name": "Ministry of Sports and Youth Development",
+  "state": "Imo State",
+  "website_structure": {
+    "home_page": {
+      "hero_section": {
+        "title": "Ministry of Sports and Youth Development",
+        "welcome_statement": "Welcome to the Ministry of Youth and Sports Development, Imo State the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential. Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports. Together, we are shaping champions on and off the field.",
+        "mission_statement": "Ministry of sports is geared towards ensuring the development of sports and foster sporting activities in the state.",
+        "vision": "To build a dynamic, inclusive, and high-performing generation of youth, celebrated for sporting prowess, leadership, and community vitality."
+      },
+      "navigation_links": [
+        "Who we are",
+        "Newsroom", 
+        "Learn more about us"
+      ],
+      "sections": [
+        {
+          "name": "News & Updates / Slideshow",
+          "description": "Includes the latest news such as international gymnastics courses, MTN Champs, capacity-building workshops, and more."
         },
-        "hero_banner_carousel": {
-          "description": "Rotating images of ministry buildings with captions (e.g. 'Ministry Building 1–4')",
-          "tagline": "Providing sustainable housing and land management solutions for Imolight",
-          "additional_content": "outline the vision and mission state on each banner slide"
+        {
+          "name": "About / Who We Are",
+          "description": "A brief about information of the ministry"
         },
-        "mission_vision": {
-          "mission": "To administer land and property services with integrity—leveraging digital systems like Imo Land Information Service Centre (IMLISC) for land registration, C of O issuance, and urban planning guidance—while restoring trust and enhancing equitable access.",
-          "vision": "To foster a transparent, efficient, and digitally enabled land management and urban planning system that supports sustainable development and public confidence in Imo State."
+        {
+          "name": "Departments Overview",
+          "description": "Outline the departments and brief function of the department"
         },
-        "welcome_statement": "Welcome to the Ministry of Lands, Survey, Housing and Urban Planning, Imo State—an agency committed to transforming land administration through innovation, transparency, and public-centered service.",
-        "sections": {
-          "departments": "display three vital department as floating card with read more link on each, which would take user to each department page",
-          "agencies": "outline the list of agencies with a read more link as card",
-          "services": "outline the list of service offer by the ministry as cards and a read more link to services page on each, which would give a detail information about the ministry services"
+        {
+          "name": "Leadership / Biographies",
+          "description": "Attach the image of the commissioner and welcome statement",
+          "commissioner_welcome": "Welcome to the Ministry of Youth and Sports Development, Imo State the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential. Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports. Together, we are shaping champions on and off the field."
         },
-        "integration": "integrate a google map",
-        "footer": {
-          "address": "Block 7, Imo State Secretariat, Port Harcourt Road, PMB 1532, Owerri, Imo State, Nigeria",
-          "contact_info": {
-            "address": "Block 7, Imo State, Secretariat, Port Harcourt Road Owerri, Imo",
-            "phone": "234 803 506 6722",
-            "phone_2": "234 803 870 4368",
-            "email": "------------------------------------"
-          }
+        {
+          "name": "Newsroom / Recent Releases",
+          "description": "List the current News from the ministry with a read more button linked to the News Page"
+        },
+        {
+          "name": "Events Spotlight",
+          "description": "List the latest event from the ministry, include a read more button"
         }
+      ],
+      "footer": {
+        "quick_links": "Quick link to the main menus",
+        "contact_info": {
+          "address": "Block 1, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State",
+          "phone": "----------------------",
+          "email": "----------------------------"
+        },
+        "copyright": "All Right Reserve Imo 2025"
       }
     },
-    "about_us": {
-      "page_title": "About Us",
-      "recommendations": {
-        "header": "consistent",
-        "ministry_introduction": "attach the ministry physical Structure with introduction statement: 'The Imo State Ministry of Lands, Survey, Housing and Urban Planning is the statutory organ of government responsible for land administration, urban spatial planning, and the development of housing policy across the state. Guided by modern principles of transparency and accountability, the ministry plays a central role in facilitating equitable land distribution, surveying and mapping services, layout planning, and the issuance of secure land titles, such as Certificates of Occupancy.'",
-        "commissioner_section": {
-          "instruction": "attach the commissioner picture with his brief bio and statement",
-          "bio": "Barr. Enyinna Victor Onuegbu, KSC, is the current Commissioner for Lands, Survey and Physical Planning in Imo State under Governor Hope Uzodinma. He hails from Umuokoro-Eziama in Ngor Okpala LGA and holds the traditional title of Ebekuodike (Prime Minister) of his community. A trained lawyer, Onuegbu began his legal career in Owerri after NYSC. He is married to Magistrate Uche Onuegbu, and they have four children. His early political mentorship came from the late Senator Arthur Nzeribe, whom he served as legal adviser and political aide. Onuegbu's political journey spans several decades, beginning in the SDP and later the Democratic Party of Nigeria. He has served as Commissioner for Power and Chief Political Adviser to the Governor before returning as Lands Commissioner in 2025. He is known for reforming the land sector by eliminating irregularities, enforcing due process, and digitizing land records in partnership with the Imo Geographic Information Service (IGIS). His leadership promotes transparency and public trust in land administration. Barr. Onuegbu is respected for his professionalism, cultural values, and loyalty to the Uzodinma administration. Despite political speculation, he remains focused on delivering efficient public service without pursuing personal political ambition."
+    "about_us_page": {
+      "hero_section": {
+        "title_banner": "NSC core values: Fair Play, Social Justice, Equality, Self‑Reliance, and Discipline"
+      },
+      "sections": [
+        {
+          "name": "Introductory Statement",
+          "content": "-------------------------------------"
         },
-        "mission_vision_statements": {
-          "mission": "---------------------------------",
-          "vision": "-----------------------------------------"
+        {
+          "name": "Mission / Vision / Mandate",
+          "mission_statement": "--------------------",
+          "vision_statement": "---------------------",
+          "mandate": "Talent identification & grassroots development: Engaging local government areas (LGAs) across the state to identify young sporting talents for the National Sports Festival and other competitions\n\nSupporting women and youth football: Oversight for Heartland Queens FC and support for their welfare, transport, and performance development strategies\n\nPromotion of mini-football: Meeting held with Imo Mini Football Association to integrate mini­-football into state sports programs\n\nCollaboration with SWAN: Working closely with the Sports Writers Association of Nigeria to boost media coverage, youth talent projection, and broader participation"
         },
-        "team_members": "attach the pictures, names and positions hold by each member of the team",
-        "department_section": "Outline all the department on this ministry",
-        "map_integration": "Integrate a live google map before the footer",
-        "footer_contact": "footer and contact consistent"
-      }
+        {
+          "name": "Responsibilities",
+          "content": "Policy, infrastructure, talent, mass participation, stakeholder collaboration"
+        },
+        {
+          "name": "Specific Functions",
+          "content": "Formulation, training, partnerships, events coordination"
+        },
+        {
+          "name": "Developmental Programmes",
+          "content": ""
+        },
+        {
+          "name": "Leadership Snapshot",
+          "key_figures": {
+            "permanent_secretary": "Lady Ngozi Duru Victoria",
+            "commissioner": "",
+            "departmental_directors": ""
+          }
+        },
+        {
+          "name": "Historical Overview",
+          "content": "-------------------------------------"
+        }
+      ]
     },
     "commissioner": {
-      "page_title": "Commissioner",
-      "recommendations": {
-        "name": "Chief Barr. Enyinna Onuegbu, KSC"
-      }
+      "name": "Hon. Obinna Evaristus Onyeocha"
     },
     "departments_and_agencies": {
-      "page_title": "Department And Agencies",
-      "recommendations": {
-        "associated_agencies": [
-          {
-            "name": "Imo State Geographic Information Service (IGIS)",
-            "description": "Established under the Imo State Lands Administration and Geographic Information Service (Establishment) Law 2021. Responsible for digitizing land records, geospatial data, land registry services, land-title issuance, and land administration enforcement. Operates the IGIS Service Centre supporting citizens and government agencies with maps, reports, and spatial analytics."
-          },
-          {
-            "name": "Imo Housing Corporation",
-            "description": "Works with the ministry on matters related to land allocation, built property, and regulatory compliance."
-          },
-          {
-            "name": "Owerri Capital Development Authority (OCDA)",
-            "description": "Collaborates on urban planning, zoning, and development oversight in the state capital."
-          }
-        ]
-      }
+      "departments": [
+        {
+          "name": "Department of Sports Development",
+          "function": "Designs and implements sports policies, manages state teams and competitions (e.g., National Sports Festival), and promotes grassroots sports development."
+        },
+        {
+          "name": "Department of Youth Development", 
+          "function": "Engages youth in empowerment programs, entrepreneurship, and leadership training. Coordinates NYSC affairs."
+        },
+        {
+          "name": "Department of Talent Hunt and Empowerment",
+          "function": "Identifies young talents in sports and supports them with training, exposure, and mentorship."
+        },
+        {
+          "name": "Department of Planning, Research & Statistics",
+          "function": "Monitors and evaluates the ministry's programs, conducts research for policy development, and manages data/statistics."
+        },
+        {
+          "name": "Department of Administration & General Services",
+          "function": "Handles the internal administration of the ministry, including logistics, records, staff matters, and supplies."
+        },
+        {
+          "name": "Department of Finance & Accounts",
+          "function": "Manages budgeting, fund disbursement, and financial reporting within the ministry."
+        },
+        {
+          "name": "Department of Sports Infrastructure & Facility Management",
+          "function": "Oversees the construction, renovation, and maintenance of stadiums and sports complexes."
+        },
+        {
+          "name": "Department of Public Relations / Media & Outreach",
+          "function": "Manages the ministry's public communication, coordinates with SWAN, and promotes events."
+        }
+      ]
     },
     "services": {
-      "page_title": "Services",
-      "recommendations": {
-        "service_categories": [
-          {
-            "category": "Land Administration",
-            "services": [
-              "Issuance of Certificate of Occupancy (C-of-O): Provides legal titles to landowners",
-              "Processing of land allocations and leaseholds: Administers residential, commercial, industrial, and agricultural plots",
-              "Title verification and land search reports: Confirms ownership and legal status of properties"
-            ]
-          },
-          {
-            "category": "Survey and Mapping",
-            "services": [
-              "Survey plan approval: Ensures all land measurements comply with state survey standards",
-              "Geospatial mapping services: Uses modern GIS tools to produce maps, layouts, and land demarcations",
-              "Boundary demarcation and re-establishment: Helps resolve land disputes and maintains legal boundaries"
-            ]
-          },
-          {
-            "category": "Physical and Urban Planning",
-            "services": [
-              "Development Control & Building Permit Approvals: Regulates construction and ensures compliance with town planning laws",
-              "Site Analysis & Planning Advice: Provides expert guidance on land use, zoning, and infrastructure layouts",
-              "Urban renewal and master plan implementation: Ensures organized growth in urban and rural environments"
-            ]
-          },
-          {
-            "category": "Land Use Charge and Revenue Collection",
-            "services": [
-              "Computation of land use charge (LUC): Calculates and processes annual property tax",
-              "Online payment and revenue reconciliation: Through IGIS and the Imo State Integrated Revenue Portal"
-            ]
-          },
-          {
-            "category": "Digital Land Services (via IGIS)",
-            "services": [
-              "Digital land registry and record digitization",
-              "Online application for land services",
-              "Geospatial database services for planning and analytics"
-            ]
-          },
-          {
-            "category": "Compensation and Valuation",
-            "services": [
-              "Valuation of land and properties: For compensation in government acquisitions or private negotiations",
-              "Assessment of compensation for land acquisition projects"
-            ]
-          }
-        ]
-      }
+      "programs": [
+        {
+          "name": "Capacity-Building & Training Programs",
+          "description": "Hosted a \"Teaching the Teachers for Students Development\" seminar to empower School Games Masters across secondary schools in Imo State. This initiative strengthens grassroots sports delivery."
+        },
+        {
+          "name": "Talent Identification & Football Scouting",
+          "description": "Organized a 3-day football scouting programme at Dan Anyiam Stadium with European club officials to discover promising young players for local and international careers."
+        },
+        {
+          "name": "Sports Academy Planning",
+          "description": "Plans are underway to establish a state sports academy for systematic talent identification and training."
+        },
+        {
+          "name": "Grassroots Development & Partnerships",
+          "description": "Partnered with Ex‑Iwuanyanwu National (Heartland FC alumni) for youth football development and entry pathways."
+        },
+        {
+          "name": "Mini‑Football Promotion & Integration",
+          "description": "Endorsed mini-football and partnered with the Imo State Mini Football Association to promote and integrate the sport in local programs."
+        },
+        {
+          "name": "International Coaching Upgrades & Events",
+          "description": "Rolled out coaching programmes and signed an MoU with Spanish authorities to raise coaching and athlete welfare standards."
+        },
+        {
+          "name": "Media, Stakeholder Engagement & Promotion",
+          "description": "Collaborated with SWAN and sports media to promote ministry activities and youth empowerment projects."
+        }
+      ]
     },
-    "additional_pages": {
-      "projects": {
-        "page_title": "Projects",
-        "recommendations": null
-      },
-      "news": {
-        "page_title": "News", 
-        "recommendations": null
-      },
-      "events": {
-        "page_title": "Events",
-        "recommendations": null
-      },
-      "media": {
-        "page_title": "Media",
-        "recommendations": null
-      },
-      "contact_us": {
-        "page_title": "Contact Us",
-        "recommendations": null
-      }
+    "projects": {
+      "infrastructure_projects": [
+        {
+          "name": "Completion of ultra‑modern indoor sports hall/gym complex, Owerri",
+          "budget": "₦200M"
+        },
+        {
+          "name": "Construction of a new modern hostel complex, Owerri",
+          "budget": "₦200M"
+        },
+        {
+          "name": "Renovation and equipping of existing indoor sports hall",
+          "budget": "₦250M"
+        },
+        {
+          "name": "Establishment of Imo State Sports Academy, Owerri",
+          "budget": "₦120M"
+        },
+        {
+          "name": "Re‑roofing of Grasshoppers International Handball Stadium",
+          "budget": "₦120M"
+        },
+        {
+          "name": "Upgrades at Dan Anyiam Stadium, Owerri",
+          "budget": "₦100M"
+        },
+        {
+          "name": "Asphalting internal roads at Dan Anyiam Stadium (4 km)",
+          "budget": "₦100M"
+        },
+        {
+          "name": "Construction of Olympic-standard swimming pool, Owerri",
+          "budget": "₦100M"
+        },
+        {
+          "name": "Construction of 30,000-capacity Owerri stadium",
+          "budget": "₦80M"
+        },
+        {
+          "name": "Construction of 10,000-capacity zonal stadium in Orlu",
+          "budget": "₦70M"
+        }
+      ],
+      "strategic_projects": [
+        {
+          "name": "Niger Delta Games Liaison Committee",
+          "description": "Formed to coordinate Imo's participation in the Niger Delta Sports Festival."
+        },
+        {
+          "name": "U‑25 Athlete Mobilisation & Trials",
+          "description": "Registered 600+ athletes across 17 disciplines, organized camps, and coordinated festival participation."
+        },
+        {
+          "name": "Grassroots Talent Hunt & Development",
+          "description": "Programs aimed at discovering talents through stakeholder and diaspora involvement."
+        },
+        {
+          "name": "Mini‑Football Integration",
+          "description": "Partnership with the Mini-Football Association to integrate the sport into local youth programs."
+        },
+        {
+          "name": "Olympic Day Walk & Campaigns",
+          "description": "Community outreach to promote athletics and the Olympic spirit."
+        },
+        {
+          "name": "Team Logistics Enhancement",
+          "description": "New coaster buses donated to Heartland FC and Heartland Queens FC."
+        }
+      ]
+    },
+    "news": {
+      "recent_news": [
+        {
+          "title": "Liaison Committee Formed for Niger Delta Sports Festival",
+          "date": "February 7, 2025",
+          "summary": "Commissioner Onyeocha inaugurated the Imo State Liaison Committee at the State Secretariat in Owerri. The committee, chaired by Permanent Secretary Lady Ngozi Duru Victoria, includes sports directors and private sector reps."
+        },
+        {
+          "title": "U‑25 Athlete Mobilisation",
+          "summary": "Imo State registered over 600 Under‑25 athletes in 17 disciplines for the Niger Delta Sports Festival. Trials and camps were held at Dan Anyiam Stadium."
+        },
+        {
+          "title": "Grassroots Talent Hunt Drive",
+          "summary": "The Ministry intensified grassroots scouting in collaboration with stakeholders and the diaspora."
+        },
+        {
+          "title": "Support for Mini‑Football Expansion",
+          "summary": "The Ministry partnered with the Mini Football Association to integrate mini-football into the state's youth programs."
+        },
+        {
+          "title": "Preparation for National Sports Festival",
+          "summary": "Plans are underway for Imo to compete in the 2025 NSF in Abeokuta with 400 athletes across 16 events."
+        },
+        {
+          "title": "Stakeholder Meeting: Focus on Grassroots & Welfare",
+          "summary": "Amb. Eleazer Ogbonna donated ₦800,000 toward stadium repairs and facility rehabilitation."
+        }
+      ]
+    },
+    "events": {
+      "recent_events": [
+        {
+          "name": "Imo Youth Marathon – \"Running for Peace\"",
+          "date": "May 2025",
+          "location": "Owerri",
+          "details": "Over 2,000 youths participating. Winners received ₦500,000 each. Flagged off by Governor Hope Uzodimma."
+        },
+        {
+          "name": "U‑25 Athletes in Niger Delta Sports Festival",
+          "date": "April 2025",
+          "location": "Uyo",
+          "details": "Over 600 athletes participated in 17 disciplines. Imo placed 8th overall, winning 42 medals."
+        },
+        {
+          "name": "Participation in the 2025 National Sports Festival",
+          "date": "May 2025",
+          "location": "Ogun State",
+          "details": "Imo competed. Opened with a basketball win over the host. Unity torch received in Owerri by Governor Uzodimma."
+        },
+        {
+          "name": "Mini-Football Integration Meeting",
+          "date": "February 2025",
+          "details": "Ministry pledged to support mini-football with strategic integration into youth programs."
+        }
+      ],
+      "upcoming_events": [
+        {
+          "name": "Next Edition of Imo Youth Marathon",
+          "expected_date": "May or June 2026",
+          "status": "Expected following the successful 2025 event. Official confirmation pending; registration will open online."
+        }
+      ]
     }
   }
 }

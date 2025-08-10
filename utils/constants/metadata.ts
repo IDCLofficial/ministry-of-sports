@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 
 // Site metadata that follows Next.js Metadata type
 export const SITE_METADATA: Metadata = {
-  metadataBase: new URL('https://lands.imo.gov.ng'),
-  title: "Ministry of Lands, Survey, Housing and Urban Planning - Imo State",
-  description: "Official website of the Imo State Ministry of Lands, Survey, Housing and Urban Planning. Providing efficient land administration, urban planning, and housing development services across Imo State.",
+  metadataBase: new URL('https://sports.imo.gov.ng'),
+  title: "Ministry of Sports and Youth Development - Imo State",
+  description: "Official website of the Imo State Ministry of Sports and Youth Development. Empowering youth and developing sporting excellence through comprehensive programs, talent identification, and infrastructure development across Imo State.",
   authors: [{ name: "Imo State Government" }],
   alternates: {
     canonical: "/",
@@ -14,41 +14,41 @@ export const SITE_METADATA: Metadata = {
   }, 
   twitter: {
     card: "summary_large_image",
-    title: "Ministry of Lands, Survey, Housing and Urban Planning - Imo State",
-    description: "Transforming land administration and urban planning in Imo State through transparency and digital innovation",
+    title: "Ministry of Sports and Youth Development - Imo State",
+    description: "Empowering youth and developing sporting excellence in Imo State through comprehensive programs and infrastructure development",
     creator: "@ImoStateGov",
     images: ["/assets/twitter-card.jpg"]
   },
   keywords: [
     "Imo State",
-    "Land Administration",
-    "Urban Planning",
-    "Housing Development",
-    "Survey Services",
-    "Certificate of Occupancy",
-    "Chief Barr. Enyinna Onuegbu",
+    "Sports Development",
+    "Youth Empowerment",
+    "Talent Identification",
+    "Sports Infrastructure",
+    "National Sports Festival",
+    "Hon. Obinna Evaristus Onyeocha",
     "Imo State Government",
-    "Land Allocation",
-    "Development Control",
-    "IGIS",
-    "Imo Geographic Information Service",
-    "Land Use Charge",
-    "Building Permits",
-    "Urban Development"
+    "Youth Development",
+    "Sports Academy",
+    "Heartland FC",
+    "Dan Anyiam Stadium",
+    "Niger Delta Games",
+    "Youth Marathon",
+    "Sports Training"
   ],
   openGraph: {
     type: "website",
     locale: "en_NG",
-    url: "https://lands.imo.gov.ng",
-    siteName: "Imo State Ministry of Lands, Survey, Housing and Urban Planning",
-    title: "Ministry of Lands, Survey, Housing and Urban Planning - Imo State",
-    description: "Transforming land administration and urban planning in Imo State through transparency, efficiency, and digital innovation for sustainable development.",
+    url: "https://sports.imo.gov.ng",
+    siteName: "Imo State Ministry of Sports and Youth Development",
+    title: "Ministry of Sports and Youth Development - Imo State",
+    description: "Empowering youth and developing sporting excellence in Imo State through comprehensive programs, talent identification, infrastructure development, and strategic partnerships for sustainable sports development.",
     images: [
       {
         url: "/assets/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Imo State Ministry of Lands, Survey, Housing and Urban Planning - Transforming Land Administration"
+        alt: "Imo State Ministry of Sports and Youth Development - Empowering Youth and Building Champions"
       }
     ]
   },

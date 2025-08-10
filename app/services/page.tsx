@@ -19,151 +19,151 @@ export default function Services() {
                             Our Services
                         </h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            The Ministry of Lands, Survey, Housing and Urban Planning provides comprehensive land administration, surveying, and urban planning services to support sustainable development in Imo State.
+                            The Ministry of Sports and Youth Development provides comprehensive sports development, youth empowerment, and talent nurturing programs to build a dynamic generation of champions in Imo State.
                         </p>
                     </AnimatedEntrance>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                        {/* Service 1 - Land Administration */}
+                        {/* Service 1 - Capacity-Building & Training Programs */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[0]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
                                     <FaUsers className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Land Administration
+                                    Capacity-Building & Training Programs
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    We provide comprehensive land administration services including title issuance, land allocation, and ownership verification to ensure secure land tenure in Imo State.
+                                    Hosted a "Teaching the Teachers for Students Development" seminar to empower School Games Masters across secondary schools in Imo State. This initiative strengthens grassroots sports delivery.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Issuance of Certificate of Occupancy
+                                        School Games Masters empowerment seminars
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Processing of land allocations
+                                        Grassroots sports delivery training
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Title verification services
+                                        Secondary school sports development
                                     </li>
                                 </ul>
                             </div>
                         </AnimatedEntrance>
 
-                        {/* Service 2 - Survey and Mapping */}
+                        {/* Service 2 - Talent Identification & Football Scouting */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[2]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
                                     <FaShieldHalved className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Survey and Mapping
+                                    Talent Identification & Football Scouting
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Professional surveying and mapping services to support land administration, urban planning, and infrastructure development across Imo State.
+                                    Organized a 3-day football scouting programme at Dan Anyiam Stadium with European club officials to discover promising young players for local and international careers.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Survey plan approval
+                                        Football scouting programmes with European clubs
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Geospatial mapping services
+                                        Young talent identification and development
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Boundary demarcation
+                                        Local and international career pathways
                                     </li>
                                 </ul>
                             </div>
                         </AnimatedEntrance>
 
-                        {/* Service 3 - Physical & Urban Planning */}
+                        {/* Service 3 - Sports Academy Planning */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[4]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
                                     <FaLeaf className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Physical & Urban Planning
+                                    Sports Academy Planning
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Comprehensive urban planning services to guide sustainable development and organized growth across Imo State&apos;s urban and rural areas.
+                                    Plans are underway to establish a state sports academy for systematic talent identification and training to develop the next generation of sporting champions.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Development control
+                                        State sports academy establishment
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Building permit approvals
+                                        Systematic talent identification programs
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Urban renewal programs
+                                        Professional training and development
                                     </li>
                                 </ul>
                             </div>
                         </AnimatedEntrance>
 
-                        {/* Service 4 - Land Use Charge & Revenue */}
+                        {/* Service 4 - Grassroots Development & Partnerships */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[5]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
                                     <FaHandsHelping className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Land Use Charge & Revenue
+                                    Grassroots Development & Partnerships
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Efficient collection of land use charges and other revenue streams to support infrastructure development and public services in Imo State.
+                                    Partnered with Ex‑Iwuanyanwu National (Heartland FC alumni) for youth football development and entry pathways to create opportunities for young athletes.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Land use charge computation
+                                        Partnership with Heartland FC alumni
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Online payment processing
+                                        Youth football development programs
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Revenue reconciliation
+                                        Career entry pathways for young athletes
                                     </li>
                                 </ul>
                             </div>
                         </AnimatedEntrance>
 
-                        {/* Service 5 - Digital Land Services (IGIS) */}
+                        {/* Service 5 - Mini-Football Promotion & Integration */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[0]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
                                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
                                     <FaHandshake className="w-8 h-8 text-green-600" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                    Digital Land Services (IGIS)
+                                    Mini-Football Promotion & Integration
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Modern digital solutions for land administration through the Imo Geographic Information Service (IGIS) for efficient and transparent service delivery.
+                                    Endorsed mini-football and partnered with the Imo State Mini Football Association to promote and integrate the sport in local programs across the state.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Digital land registry
+                                        Mini-football endorsement and promotion
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Online land applications
+                                        Partnership with Mini Football Association
                                     </li>
                                     <li className="flex items-center">
                                         <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                        Geospatial database services
+                                        Integration into local youth programs
                                     </li>
                                 </ul>
                             </div>
@@ -180,7 +180,7 @@ export default function Services() {
                             How to Access Our Services
                         </h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Follow these simple steps to access our land administration and urban planning services
+                            Follow these simple steps to access our sports development and youth empowerment programs
                         </p>
                     </div>
 
@@ -194,7 +194,7 @@ export default function Services() {
                                 Visit Our Office
                             </h3>
                             <p className="text-gray-600 text-sm">
-                                Come to Block 7, Imo State Secretariat, Port Harcourt Road, Owerri or contact us via phone/email
+                                Come to Block 1, Imo State Secretariat, Port Harcourt Road, Owerri or contact us via phone/email
                             </p>
                         </div>
 
@@ -204,10 +204,10 @@ export default function Services() {
                                 2
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                                Submit Application
+                                Register for Programs
                             </h3>
                             <p className="text-gray-600 text-sm">
-                                Complete the required application forms and submit with necessary documents
+                                Complete registration forms for sports programs, talent identification, or youth empowerment initiatives
                             </p>
                         </div>
 
@@ -217,10 +217,10 @@ export default function Services() {
                                 3
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                                Processing & Verification
+                                Assessment & Selection
                             </h3>
                             <p className="text-gray-600 text-sm">
-                                Our team will process your application and verify all submitted documents
+                                Our team will assess your skills, talents, and suitability for the selected programs
                             </p>
                         </div>
 
@@ -230,10 +230,10 @@ export default function Services() {
                                 4
                             </div>
                             <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                                Collection & Feedback
+                                Program Participation & Development
                             </h3>
                             <p className="text-gray-600 text-sm">
-                                Collect your processed documents and provide feedback on our services
+                                Begin your journey in sports development, training programs, and youth empowerment initiatives
                             </p>
                         </div>
                     </div>

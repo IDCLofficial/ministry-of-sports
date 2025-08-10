@@ -13,8 +13,8 @@ export default function Department() {
                     <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
                         <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN}>
                             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                                Ministry of Lands, Survey, Housing<br />
-                                and Urban Planning
+                                Ministry of Sports<br />
+                                and Youth Development
                             </h1>
                             <p className="mt-4 text-xl text-white">
                                 Departments & Agencies
@@ -29,138 +29,104 @@ export default function Department() {
                 sidebarTitle="Our Departments"
                 tabs={[
                     {
-                        id: "land-administration",
-                        label: "Land Administration",
+                        id: "sports-development",
+                        label: "Sports Development",
                         content: {
-                            title: "Department of Land Administration",
+                            title: "Department of Sports Development",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Land Administration",
-                            description: "The Department of Land Administration oversees all land-related matters in Imo State, ensuring transparent and efficient land management systems. The department is responsible for land allocation, title documentation, and the implementation of land policies in line with state regulations.",
+                            imageAlt: "Department of Sports Development",
+                            description: "The Department of Sports Development designs and implements sports policies, manages state teams and competitions (e.g., National Sports Festival), and promotes grassroots sports development across Imo State.",
                             additionalInfo: [
-                                "Processing and issuance of Certificates of Occupancy (C-of-O)",
-                                "Management of land allocation and leasehold administration",
-                                "Verification of land titles and processing of land documents",
-                                "Implementation of land use policies and regulations",
-                                "Resolution of land disputes and boundary matters"
+                                "Development and implementation of comprehensive sports policies",
+                                "Management of state teams for National Sports Festival and competitions",
+                                "Promotion of grassroots sports development programs",
+                                "Coordination of sports competitions and tournaments",
+                                "Partnership with sports federations and associations"
                             ]
                         }
                     },
                     {
-                        id: "survey-mapping",
-                        label: "Survey & Mapping",
+                        id: "youth-development",
+                        label: "Youth Development",
                         content: {
-                            title: "Department of Survey and Mapping",
+                            title: "Department of Youth Development",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Survey and Mapping",
-                            description: "The Department of Survey and Mapping is responsible for conducting cadastral, topographical, and engineering surveys across Imo State. The department maintains accurate geospatial data and provides mapping services to support land administration and urban planning.",
+                            imageAlt: "Department of Youth Development",
+                            description: "The Department of Youth Development engages youth in empowerment programs, entrepreneurship, and leadership training. The department coordinates NYSC affairs and implements youth-focused initiatives across Imo State.",
                             additionalInfo: [
-                                "Approval and verification of survey plans",
-                                "Conducting boundary surveys and re-establishment of beacons",
-                                "Production of topographical and cadastral maps",
-                                "Provision of geospatial data for planning and development",
-                                "Maintenance of survey records and control points"
+                                "Youth empowerment and entrepreneurship programs",
+                                "Leadership training and capacity building initiatives",
+                                "Coordination of NYSC affairs and youth corps activities",
+                                "Implementation of youth development policies",
+                                "Partnership with youth organizations and stakeholders"
                             ]
                         }
                     },
                     {
-                        id: "urban-planning",
-                        label: "Urban & Regional Planning",
+                        id: "talent-hunt-empowerment",
+                        label: "Talent Hunt & Empowerment",
                         content: {
-                            title: "Department of Urban and Regional Planning",
+                            title: "Department of Talent Hunt and Empowerment",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Urban and Regional Planning",
-                            description: "The Department of Urban and Regional Planning is responsible for the physical development and spatial organization of urban and rural areas in Imo State. The department formulates and implements policies for sustainable human settlements and infrastructure development.",
+                            imageAlt: "Department of Talent Hunt and Empowerment",
+                            description: "The Department of Talent Hunt and Empowerment identifies young talents in sports and supports them with training, exposure, and mentorship programs to develop their potential and achieve excellence.",
                             additionalInfo: [
-                                "Preparation and implementation of physical development plans",
-                                "Processing and approval of layout plans and building permits",
-                                "Enforcement of urban development control regulations",
-                                "Urban renewal and slum upgrading initiatives",
-                                "Collaboration with local planning authorities"
+                                "Identification and scouting of young sporting talents",
+                                "Provision of specialized training and development programs",
+                                "Mentorship and guidance for talented athletes",
+                                "Exposure opportunities for local and international competitions",
+                                "Partnership with sports academies and training centers"
                             ]
                         }
                     },
                     {
-                        id: "housing-development",
-                        label: "Housing Development",
+                        id: "sports-infrastructure",
+                        label: "Sports Infrastructure",
                         content: {
-                            title: "Department of Housing Development",
+                            title: "Department of Sports Infrastructure & Facility Management",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Housing Development",
-                            description: "The Department of Housing Development formulates and implements housing policies and programs to meet the shelter needs of Imo State residents. The department promotes affordable housing delivery and public-private partnerships in the housing sector.",
+                            imageAlt: "Department of Sports Infrastructure & Facility Management",
+                            description: "The Department of Sports Infrastructure & Facility Management oversees the construction, renovation, and maintenance of stadiums and sports complexes across Imo State to support sporting activities and events.",
                             additionalInfo: [
-                                "Implementation of state housing policies and programs",
-                                "Development of affordable housing schemes and estates",
-                                "Facilitation of public-private partnerships in housing delivery",
-                                "Regulation of housing standards and building materials",
-                                "Coordination of housing finance and mortgage schemes"
+                                "Construction and renovation of sports facilities and stadiums",
+                                "Maintenance and upkeep of existing sports complexes",
+                                "Planning and development of modern sports infrastructure",
+                                "Management of sports facility usage and scheduling",
+                                "Coordination of infrastructure projects and upgrades"
                             ]
                         }
                     },
                     {
-                        id: "development-control",
-                        label: "Development Control",
+                        id: "planning-research-statistics",
+                        label: "Planning, Research & Statistics",
                         content: {
-                            title: "Department of Development Control",
+                            title: "Department of Planning, Research & Statistics",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Development Control",
-                            description: "The Department of Development Control ensures compliance with approved physical development plans and building regulations across Imo State. The department enforces development standards and monitors construction activities to maintain orderly urban growth.",
+                            imageAlt: "Department of Planning, Research & Statistics",
+                            description: "The Department of Planning, Research & Statistics monitors and evaluates the ministry's programs, conducts research for policy development, and manages data/statistics to support evidence-based decision making.",
                             additionalInfo: [
-                                "Enforcement of development control regulations and standards",
-                                "Monitoring and control of building construction activities",
-                                "Removal of illegal and non-conforming developments",
-                                "Processing and approval of building plan applications",
-                                "Public enlightenment on building regulations and standards"
+                                "Monitoring and evaluation of ministry programs and initiatives",
+                                "Conducting research for sports and youth development policies",
+                                "Collection and analysis of sports and youth development data",
+                                "Statistical reporting and data management",
+                                "Policy development support and strategic planning"
                             ]
                         }
                     },
                     {
-                        id: "documentation-records",
-                        label: "Documentation & Records",
+                        id: "administration-general-services",
+                        label: "Administration & General Services",
                         content: {
-                            title: "Department of Documentation and Records",
+                            title: "Department of Administration & General Services",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Documentation and Records",
-                            description: "The Department of Documentation and Records is responsible for the proper keeping, maintenance, and retrieval of all land and housing records in Imo State. The department ensures the security and integrity of all official documents and facilitates efficient information management.",
+                            imageAlt: "Department of Administration & General Services",
+                            description: "The Department of Administration & General Services handles the internal administration of the ministry, including logistics, records, staff matters, and supplies to ensure smooth operational efficiency.",
                             additionalInfo: [
-                                "Custody and management of land title documents",
-                                "Digitization and archiving of land and housing records",
-                                "Processing of requests for certified true copies of documents",
-                                "Maintenance of an efficient records management system",
-                                "Provision of search and retrieval services for land documents"
-                            ]
-                        }
-                    },
-                    {
-                        id: "igis",
-                        label: "IGIS Services",
-                        content: {
-                            title: "Imo Geographic Information Service (IGIS)",
-                            imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Imo Geographic Information Service (IGIS)",
-                            description: "The Imo Geographic Information Service (IGIS) is responsible for digitizing land records, managing geospatial data, and providing land registry services. Established under the Imo State Lands Administration and Geographic Information Service Law 2021, IGIS enhances transparency and efficiency in land administration.",
-                            additionalInfo: [
-                                "Digitization of land records and cadastral mapping",
-                                "Online land title processing and verification",
-                                "Geospatial data management and analysis",
-                                "Land information system development and maintenance",
-                                "Technical support for land administration processes"
-                            ]
-                        }
-                    },
-                    {
-                        id: "legal-services",
-                        label: "Legal Services",
-                        content: {
-                            title: "Department of Legal Services",
-                            imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Legal Services",
-                            description: "The Department of Legal Services provides legal advisory and support services to the Ministry on all land and housing matters. The department handles litigation, contract vetting, and ensures compliance with land administration laws and regulations in Imo State.",
-                            additionalInfo: [
-                                "Legal advisory services on land and housing matters",
-                                "Drafting and vetting of legal documents and contracts",
-                                "Representation of the ministry in court cases and disputes",
-                                "Review and interpretation of land laws and regulations",
-                                "Handling of land title disputes and litigation matters"
+                                "Internal administration and office management",
+                                "Logistics coordination and supply management",
+                                "Staff matters and human resource administration",
+                                "Records management and documentation",
+                                "General services and facility management"
                             ]
                         }
                     },
@@ -168,33 +134,33 @@ export default function Department() {
                         id: "finance-accounts",
                         label: "Finance & Accounts",
                         content: {
-                            title: "Department of Finance and Accounts",
+                            title: "Department of Finance & Accounts",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Finance and Accounts",
-                            description: "The Department of Finance and Accounts manages the financial resources of the Ministry, ensuring proper budgeting, accounting, and financial reporting. The department oversees revenue collection from land transactions and ensures compliance with financial regulations.",
+                            imageAlt: "Department of Finance & Accounts",
+                            description: "The Department of Finance & Accounts manages budgeting, fund disbursement, and financial reporting within the ministry to ensure proper financial management and accountability.",
                             additionalInfo: [
-                                "Preparation and management of annual budgets",
-                                "Processing of payments and financial transactions",
-                                "Revenue collection and accounting for land-related fees",
-                                "Financial reporting and audit coordination",
-                                "Management of payroll and staff welfare matters"
+                                "Budget preparation and financial planning",
+                                "Fund disbursement and expenditure management",
+                                "Financial reporting and accounting services",
+                                "Revenue management and collection",
+                                "Financial compliance and audit coordination"
                             ]
                         }
                     },
                     {
-                        id: "admin-hr",
-                        label: "Admin & HR",
+                        id: "media-outreach",
+                        label: "Media & Outreach",
                         content: {
-                            title: "Department of Administration and Human Resources",
+                            title: "Department of Public Relations / Media & Outreach",
                             imageSrc: "/assets/no-image-lg.jpg",
-                            imageAlt: "Department of Administration and Human Resources",
-                            description: "The Department of Administration and Human Resources is responsible for the effective management of the Ministry's human capital and administrative functions. The department ensures smooth operations through efficient personnel management and administrative support services.",
+                            imageAlt: "Department of Public Relations / Media & Outreach",
+                            description: "The Department of Public Relations / Media & Outreach manages the ministry's public communication, coordinates with SWAN (Sports Writers Association of Nigeria), and promotes events and sporting activities.",
                             additionalInfo: [
-                                "Recruitment, training, and development of staff",
-                                "Personnel management and welfare services",
-                                "Office administration and general services",
-                                "Staff discipline and performance management",
-                                "Coordination of meetings and official correspondence"
+                                "Public communication and media relations management",
+                                "Coordination with SWAN and sports media organizations",
+                                "Promotion of ministry events and sporting activities",
+                                "Public awareness campaigns and outreach programs",
+                                "Digital media management and content creation"
                             ]
                         }
                     }

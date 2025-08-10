@@ -10,36 +10,36 @@ export const HOME_STATISTICS: StatisticItem[] = [
     label: 'LGAs Served in Imo State'
   },
   {
-    value: 6,
-    label: 'Service Categories'
+    value: 8,
+    label: 'Ministry Departments'
   },
   {
-    value: 1000,
+    value: 600,
     suffix: '+',
-    label: 'Land Titles Processed Annually'
+    label: 'Athletes Registered for Competitions'
   },
   {
-    value: 3,
-    label: 'Key Partner Agencies'
+    value: 17,
+    label: 'Sports Disciplines Supported'
   }
 ];
 
 export const PROJECTS_STATISTICS: StatisticItem[] = [
   {
-    value: 5,
-    label: 'Ongoing Urban Development Projects'
+    value: 10,
+    label: 'Major Infrastructure Projects'
   },
   {
-    value: 12,
-    label: 'Housing Estates Completed'
+    value: 6,
+    label: 'Strategic Development Programs'
   },
   {
-    value: 27,
-    label: 'LGAs with Digital Land Records'
-  },
-  {
-    value: 5000,
+    value: 2000,
     suffix: '+',
-    label: 'Land Titles Digitized'
+    label: 'Youth Marathon Participants'
+  },
+  {
+    value: 42,
+    label: 'Medals Won at Niger Delta Games'
   }
 ];

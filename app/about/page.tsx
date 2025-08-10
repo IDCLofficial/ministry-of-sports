@@ -23,7 +23,7 @@ export default function About() {
                         <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
                                 <Image
                                     src="/assets/no-image.png"
-                                    alt="Imo State Ministry of Lands, Survey, Housing and Urban Planning – Overview"
+                                    alt="Imo State Ministry of Sports and Youth Development – Overview"
                                     width={600}
                                     height={400}
                                     className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
@@ -32,13 +32,13 @@ export default function About() {
                         <div className="order-1 lg:order-2">
                             <AnimatedEntrance {...ANIMATION_PRESETS.TEXT_FADE_RIGHT} delay={200}>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                    The Imo State Ministry of Lands, Survey, Housing and Urban Planning is the statutory organ of government responsible for land administration, urban spatial planning, and the development of housing policy across the state. Guided by modern principles of transparency and accountability, the ministry plays a central role in facilitating equitable land distribution, surveying and mapping services, layout planning, and the issuance of secure land titles, such as Certificates of Occupancy.
+                                    Welcome to the Ministry of Sports and Youth Development, Imo State – the heartbeat of youth empowerment and sporting excellence in our dear state. Guided by the vision of building a vibrant, talented, and globally competitive generation, we are committed to creating opportunities that inspire our young people to reach their full potential.
                                 </p>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                    Working in collaboration with the Imo State Geographic Information Service (IGIS), the ministry is at the forefront of digitizing land records and modernizing land administration processes. Our comprehensive mandate encompasses land allocation, survey plan approvals, physical planning, development control, and the implementation of urban renewal initiatives across Imo State.
+                                    Through strategic programs, modern sports infrastructure, and collaborative partnerships, we strive to nurture talent, promote healthy lifestyles, and unite communities through the power of sports. Our comprehensive mandate encompasses talent identification, grassroots development, sports infrastructure management, and youth empowerment initiatives across Imo State.
                                 </p>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-                                    Under the leadership of Chief Barr. Enyinna Victor Onuegbu, KSC, the ministry is committed to implementing Governor Hope Uzodinma&apos;s vision for transparent, efficient, and technology-driven land administration that supports sustainable development and enhances public confidence in the state&apos;s land management systems.
+                                    Under the leadership of Hon. Obinna Evaristus Onyeocha, the ministry is committed to implementing Governor Hope Uzodinma&apos;s vision for sports development and youth empowerment that builds champions both on and off the field, fostering a generation celebrated for sporting prowess, leadership, and community vitality.
                                 </p>
                             </AnimatedEntrance>
                         </div>
@@ -65,7 +65,7 @@ export default function About() {
                                     <h3 className="text-2xl font-bold text-gray-900">Our Vision</h3>
                                 </div>
                                 <p className="text-gray-600 leading-relaxed">
-                                    To foster a transparent, efficient, and digitally enabled land management and urban planning system that supports sustainable development and public confidence in Imo State.
+                                    To build a dynamic, inclusive, and high-performing generation of youth, celebrated for sporting prowess, leadership, and community vitality.
                                 </p>
                             </div>
                         </AnimatedEntrance>
@@ -80,17 +80,17 @@ export default function About() {
                                     <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
                                 </div>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    To administer land and property services with integrity—leveraging digital systems like Imo Land Information Service Centre (IMLISC) for land registration, C of O issuance, and urban planning guidance—while restoring trust and enhancing equitable access.
+                                    The Ministry of Sports and Youth Development is geared towards ensuring the development of sports and fostering sporting activities in the state, while empowering youth through strategic programs and modern infrastructure.
                                 </p>
-                                <h4 className="font-semibold text-gray-800 mt-4 mb-2">Our Core Objectives:</h4>
+                                <h4 className="font-semibold text-gray-800 mt-4 mb-2">Our Core Mandates:</h4>
                                 <ul className="space-y-3">
                                     {[
-                                        "Digitize and automate land administration processes through IGIS",
-                                        "Ensure transparent and efficient land title registration and issuance",
-                                        "Promote sustainable urban and regional planning",
-                                        "Implement development control and building regulations",
-                                        "Facilitate affordable housing initiatives",
-                                        "Enhance revenue generation through efficient land use charge administration"
+                                        "Talent identification & grassroots development: Engaging local government areas (LGAs) across the state to identify young sporting talents",
+                                        "Supporting women and youth football: Oversight for Heartland Queens FC and support for their welfare and performance development",
+                                        "Promotion of mini-football: Integration of mini-football into state sports programs",
+                                        "Collaboration with SWAN: Working with Sports Writers Association of Nigeria to boost media coverage and youth talent projection",
+                                        "Sports infrastructure development and facility management",
+                                        "Youth empowerment programs, entrepreneurship, and leadership training"
                                     ].map((item, index) => (
                                         <li key={index} className="flex items-start">
                                             <div className="flex-shrink-0 mt-1">
@@ -110,12 +110,12 @@ export default function About() {
                             <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">Our Core Values</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 {[
-                                    { title: "Transparency", icon: <FaEye className="w-6 h-6 text-green-600" /> },
-                                    { title: "Accountability", icon: <FaClipboardCheck className="w-6 h-6 text-green-600" /> },
-                                    { title: "Peacebuilding", icon: <FaShieldHalved className="w-6 h-6 text-green-600" /> },
-                                    { title: "Community Engagement", icon: <FaUsers className="w-6 h-6 text-green-600" /> },
-                                    { title: "Sustainable Development", icon: <FaTree className="w-6 h-6 text-green-600" /> },
-                                    { title: "Data-Driven Approach", icon: <FaChartLine className="w-6 h-6 text-green-600" /> }
+                                    { title: "Fair Play", icon: <FaEye className="w-6 h-6 text-green-600" /> },
+                                    { title: "Social Justice", icon: <FaClipboardCheck className="w-6 h-6 text-green-600" /> },
+                                    { title: "Equality", icon: <FaShieldHalved className="w-6 h-6 text-green-600" /> },
+                                    { title: "Self-Reliance", icon: <FaUsers className="w-6 h-6 text-green-600" /> },
+                                    { title: "Discipline", icon: <FaTree className="w-6 h-6 text-green-600" /> },
+                                    { title: "Excellence", icon: <FaChartLine className="w-6 h-6 text-green-600" /> }
                                 ].map((value, index) => (
                                     <div key={index} className="bg-white p-6 rounded-xl shadow-md text-center">
                                         <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -140,68 +140,68 @@ export default function About() {
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                        {/* Land Administration */}
+                        {/* Sports Development */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <FaFileContract className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Land Administration
+                                Sports Development
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Managing land allocation, registration, and documentation including issuance of Certificates of Occupancy and processing of land transactions with transparency and efficiency.
+                                Designs and implements sports policies, manages state teams and competitions (e.g., National Sports Festival), and promotes grassroots sports development across Imo State.
                             </p>
                         </div>
 
-                        {/* Survey and Mapping */}
+                        {/* Youth Development */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <FaChartLine className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Survey and Mapping
+                                Youth Development
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Providing professional surveying services, boundary demarcation, and maintaining accurate geospatial data through modern GIS technology.
+                                Engages youth in empowerment programs, entrepreneurship, and leadership training. Coordinates NYSC affairs and youth-focused initiatives across the state.
                             </p>
                         </div>
 
-                        {/* Urban Planning */}
+                        {/* Talent Hunt and Empowerment */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <FaBuilding className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Urban Planning
+                                Talent Hunt & Empowerment
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Developing and implementing master plans, zoning regulations, and development control measures for sustainable urban growth.
+                                Identifies young talents in sports and supports them with training, exposure, and mentorship programs to develop their potential.
                             </p>
                         </div>
 
-                        {/* Housing Development */}
+                        {/* Sports Infrastructure */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <FaHouse className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Housing Development
+                                Sports Infrastructure
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Facilitating affordable housing initiatives and implementing housing policies to meet the shelter needs of Imo State residents.
+                                Oversees the construction, renovation, and maintenance of stadiums and sports complexes across Imo State.
                             </p>
                         </div>
 
-                        {/* Development Control */}
+                        {/* Media & Outreach */}
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <FaShieldHalved className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" />
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-                                Development Control
+                                Media & Outreach
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Regulating physical development through building plan approvals, compliance monitoring, and enforcement of planning standards.
+                                Manages the ministry's public communication, coordinates with SWAN, and promotes sporting events and youth empowerment initiatives.
                             </p>
                         </div>
                     </div>
@@ -214,22 +214,22 @@ export default function About() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
                         <div className="order-2 lg:order-1">
                             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Chief Barr. Enyinna Victor Onuegbu, KSC
+                                Hon. Obinna Evaristus Onyeocha
                             </h2>
                             <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
-                                Honourable Commissioner for Lands, Survey and Physical Planning
+                                Honourable Commissioner for Sports and Youth Development
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                                Chief Barr. Enyinna Victor Onuegbu, KSC, serves as the Honourable Commissioner for Lands, Survey and Physical Planning in Imo State under the administration of His Excellency, Senator Hope Uzodinma. A distinguished legal practitioner and astute administrator, Barr. Onuegbu brings a wealth of experience in public service and governance to his role.
+                                Hon. Obinna Evaristus Onyeocha serves as the Honourable Commissioner for Sports and Youth Development in Imo State under the administration of His Excellency, Senator Hope Uzodinma. A passionate advocate for youth empowerment and sports development, Hon. Onyeocha brings extensive experience in sports administration and youth development to his role.
                             </p>
                             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                Hailing from Umuokoro-Eziama in Ngor Okpala Local Government Area, Barr. Onuegbu is a respected community leader who holds the traditional title of Ebekuodike (Prime Minister) of his community. He is married to Magistrate Uche Onuegbu, and together they are blessed with four children. His career in public service has been marked by a strong commitment to due process, transparency, and the efficient delivery of government services to the people of Imo State.
+                                Under his leadership, the ministry has intensified efforts in talent identification, grassroots sports development, and youth empowerment programs. His vision aligns with building a dynamic generation of youth celebrated for sporting excellence and leadership, fostering community development through sports and creating pathways for young people to reach their full potential.
                             </p>
                         </div>
                         <div className="order-1 lg:order-2">
                             <Image
                                 src="/assets/no-image.png"
-                                alt="Chief Barr. Enyinna Victor Onuegbu, KSC – Honourable Commissioner for Lands, Survey and Physical Planning"
+                                alt="Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development"
                                 width={500}
                                 height={600}
                                 className="rounded-lg shadow-lg w-full h-auto"
@@ -245,7 +245,7 @@ export default function About() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Our Leadership Team</h2>
                         <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                            Meet the dedicated leaders driving land administration, urban planning, and housing development in Imo State.
+                            Meet the dedicated leaders driving sports development, youth empowerment, and talent identification in Imo State.
                         </p>
                     </div>
 
@@ -255,14 +255,14 @@ export default function About() {
                             <div className="h-64 bg-gray-100 overflow-hidden">
                                 <Image
                                     src="/assets/no-image.png"
-                                    alt="Chief Barr. Enyinna Victor Onuegbu, KSC – Honourable Commissioner for Lands, Survey and Physical Planning"
+                                    alt="Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development"
                                     width={400}
                                     height={400}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             <div className="p-6">
-                            <h3 className="text-xl font-bold text-gray-900">Chief Barr. Enyinna Victor Onuegbu, KSC</h3>
+                            <h3 className="text-xl font-bold text-gray-900">Hon. Obinna Evaristus Onyeocha</h3>
                             <p className="text-green-700 font-medium mt-1">Honourable Commissioner</p>
                             </div>
                         </div>
@@ -279,7 +279,7 @@ export default function About() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900">[To be provided]</h3>
+                                <h3 className="text-xl font-bold text-gray-900">Lady Ngozi Duru Victoria</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
                             </div>
                         </div>
@@ -296,13 +296,13 @@ export default function About() {
                                 Our Structure
                             </h2>
                             <p className="text-sm sm:text-base md:text-lg text-gray-300 leading-relaxed mb-6">
-                                The Ministry of Lands, Survey, Housing and Urban Planning operates through a well-defined hierarchical structure designed to effectively manage land administration, urban planning, and housing development across Imo State. Our organizational setup ensures efficient service delivery, policy implementation, and coordination with relevant stakeholders in the built environment sector.
+                                The Ministry of Sports and Youth Development operates through a well-defined hierarchical structure designed to effectively manage sports development, youth empowerment, and talent identification across Imo State. Our organizational setup ensures efficient service delivery, policy implementation, and coordination with relevant stakeholders in the sports and youth development sector.
                             </p>
                         </div>
                         <div>
                             <Image
                                 src="/assets/no-image-lg.jpg"
-                                alt="Ministry of Lands, Survey, Housing and Urban Planning - Organizational Structure"
+                                alt="Ministry of Sports and Youth Development - Organizational Structure"
                                 width={600}
                                 height={400}
                                 className="rounded-lg shadow-lg w-full h-auto"
@@ -310,58 +310,58 @@ export default function About() {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                        {/* Land Administration Department */}
+                        {/* Sports Development Department */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaLandmark className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Land Administration</h3>
-                            <p className="text-sm text-gray-400">Manages land allocation, registration, and documentation including C of O issuance and land transactions.</p>
+                            <h3 className="text-lg font-semibold mb-2">Sports Development</h3>
+                            <p className="text-sm text-gray-400">Designs and implements sports policies, manages state teams and competitions, and promotes grassroots sports development.</p>
                         </div>
 
-                        {/* Survey Department */}
+                        {/* Youth Development Department */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaMapPin className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Survey Department</h3>
-                            <p className="text-sm text-gray-400">Responsible for land surveying, mapping, and maintaining geospatial data records.</p>
+                            <h3 className="text-lg font-semibold mb-2">Youth Development</h3>
+                            <p className="text-sm text-gray-400">Engages youth in empowerment programs, entrepreneurship, and leadership training. Coordinates NYSC affairs.</p>
                         </div>
 
-                        {/* Urban & Regional Planning */}
+                        {/* Talent Hunt & Empowerment */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaCity className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Urban & Regional Planning</h3>
-                            <p className="text-sm text-gray-400">Handles physical planning, development control, and implementation of urban policies.</p>
+                            <h3 className="text-lg font-semibold mb-2">Talent Hunt & Empowerment</h3>
+                            <p className="text-sm text-gray-400">Identifies young talents in sports and supports them with training, exposure, and mentorship.</p>
                         </div>
 
-                        {/* Housing Development */}
+                        {/* Sports Infrastructure */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaHouse className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Housing Development</h3>
-                            <p className="text-sm text-gray-400">Oversees housing policies, programs, and initiatives for affordable housing delivery.</p>
+                            <h3 className="text-lg font-semibold mb-2">Sports Infrastructure</h3>
+                            <p className="text-sm text-gray-400">Oversees the construction, renovation, and maintenance of stadiums and sports complexes.</p>
                         </div>
 
-                        {/* Development Control */}
+                        {/* Planning, Research & Statistics */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaClipboardCheck className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Development Control</h3>
-                            <p className="text-sm text-gray-400">Ensures compliance with building regulations and approved development plans.</p>
+                            <h3 className="text-lg font-semibold mb-2">Planning, Research & Statistics</h3>
+                            <p className="text-sm text-gray-400">Monitors and evaluates the ministry's programs, conducts research for policy development, and manages data/statistics.</p>
                         </div>
 
-                        {/* Documentation & Records */}
+                        {/* Administration & General Services */}
                         <div className="bg-gray-800 p-5 sm:p-6 rounded-lg hover:bg-gray-700 transition-colors">
                             <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center mb-4">
                                 <FaFileSignature className="w-5 h-5 text-white" />
                             </div>
-                            <h3 className="text-lg font-semibold mb-2">Documentation & Records</h3>
-                            <p className="text-sm text-gray-400">Manages land records, titles, and documentation in collaboration with IGIS.</p>
+                            <h3 className="text-lg font-semibold mb-2">Administration & General Services</h3>
+                            <p className="text-sm text-gray-400">Handles the internal administration of the ministry, including logistics, records, staff matters, and supplies.</p>
                         </div>
                     </div>
                 </div>
