@@ -201,7 +201,7 @@ export default function About() {
                                 Media & Outreach
                             </h3>
                             <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-                                Manages the ministry's public communication, coordinates with SWAN, and promotes sporting events and youth empowerment initiatives.
+                                Manages the ministry&apos;s public communication, coordinates with SWAN, and promotes sporting events and youth empowerment initiatives.
                             </p>
                         </div>
                     </div>
@@ -352,7 +352,7 @@ export default function About() {
                                 <FaClipboardCheck className="w-5 h-5 text-white" />
                             </div>
                             <h3 className="text-lg font-semibold mb-2">Planning, Research & Statistics</h3>
-                            <p className="text-sm text-gray-400">Monitors and evaluates the ministry's programs, conducts research for policy development, and manages data/statistics.</p>
+                            <p className="text-sm text-gray-400">Monitors and evaluates the ministry&apos;s programs, conducts research for policy development, and manages data/statistics.</p>
                         </div>
 
                         {/* Administration & General Services */}

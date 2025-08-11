@@ -34,7 +34,7 @@ export default function Services() {
                                     Capacity-Building & Training Programs
                                 </h3>
                                 <p className="text-gray-600 mb-6 leading-relaxed">
-                                    Hosted a "Teaching the Teachers for Students Development" seminar to empower School Games Masters across secondary schools in Imo State. This initiative strengthens grassroots sports delivery.
+                                    Hosted a &#34;Teaching the Teachers for Students Development&#34; seminar to empower School Games Masters across secondary schools in Imo State. This initiative strengthens grassroots sports delivery.
                                 </p>
                                 <ul className="text-sm text-gray-600 space-y-2 mb-6">
                                     <li className="flex items-center">
