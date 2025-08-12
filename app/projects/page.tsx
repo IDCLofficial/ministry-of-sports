@@ -173,46 +173,6 @@ export default function Projects() {
                     </div>
                 </div>
             </section>
-
-            {/* Strategic Goals Section */}
-            <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="text-center mb-10">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            The Ministry of Sports and Youth Development is committed to transforming sports development and youth empowerment in Imo State through world-class infrastructure, talent nurturing, and comprehensive sports programs.
-                        </p>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {[
-                            "Complete construction of ultra-modern indoor sports hall/gym complex worth ₦200M in Owerri.",
-                            "Establish Imo State Sports Academy for systematic talent identification and development.",
-                            "Construct Olympic-standard swimming pool and upgrade Dan Anyiam Stadium facilities.",
-                            "Build 30,000-capacity modern stadium in Owerri and 10,000-capacity zonal stadium in Orlu.",
-                            "Identify and develop over 1,000 young talents across 17 sports disciplines annually.",
-                            "Renovate and equip existing sports facilities including Grasshoppers International Handball Stadium.",
-                            "Implement comprehensive youth empowerment programs reaching 5,000 beneficiaries yearly.",
-                            "Establish partnerships with international sports organizations for coaching upgrades.",
-                            "Create modern hostel complex worth ₦200M for athletes and sports personnel.",
-                            "Develop grassroots sports programs in all 27 Local Government Areas of Imo State."
-                        ].map((goal, index) => (
-                            <AnimatedEntrance 
-                                key={index} 
-                                {...ANIMATION_PRESETS.CARD_FADE_UP} 
-                                delay={0.1 * index}
-                            >
-                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
-                                        <span className="text-green-600 font-semibold">{index + 1}</span>
-                                    </div>
-                                    <p className="text-gray-700">{goal}</p>
-                                </div>
-                            </AnimatedEntrance>
-                        ))}
-                    </div>
-                </div>
-            </section>
         </div>
     );
 }

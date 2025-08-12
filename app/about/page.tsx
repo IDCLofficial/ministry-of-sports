@@ -130,13 +130,44 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Commissioner Profile Section */}
+            <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+                        <div className="order-2 lg:order-1">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                                Hon. Obinna Evaristus Onyeocha
+                            </h2>
+                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
+                                Honourable Commissioner for Sports and Youth Development
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
+                                Hon. Obinna Evaristus Onyeocha serves as the Honourable Commissioner for Sports and Youth Development in Imo State under the administration of His Excellency, Senator Hope Uzodinma. A passionate advocate for youth empowerment and sports development, Hon. Onyeocha brings extensive experience in sports administration and youth development to his role.
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
+                                Under his leadership, the ministry has intensified efforts in talent identification, grassroots sports development, and youth empowerment programs. His vision aligns with building a dynamic generation of youth celebrated for sporting excellence and leadership, fostering community development through sports and creating pathways for young people to reach their full potential.
+                            </p>
+                        </div>
+                        <div className="order-1 lg:order-2">
+                            <Image
+                                src="/assets/no-image.png"
+                                alt="Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development"
+                                width={500}
+                                height={600}
+                                className="rounded-lg shadow-lg w-full h-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Core Responsibilities Section */}
             <section className="py-12 sm:py-16 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
                     <div className="text-center mb-8 sm:mb-12 md:mb-16">
-                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Our Core Services
-                            </h2>
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                            Our Core Services
+                        </h2>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -208,33 +239,42 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Commissioner Profile Section */}
-            <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+            {/* Strategic Goals Section */}
+            <section className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-                        <div className="order-2 lg:order-1">
-                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Hon. Obinna Evaristus Onyeocha
-                            </h2>
-                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
-                                Honourable Commissioner for Sports and Youth Development
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                                Hon. Obinna Evaristus Onyeocha serves as the Honourable Commissioner for Sports and Youth Development in Imo State under the administration of His Excellency, Senator Hope Uzodinma. A passionate advocate for youth empowerment and sports development, Hon. Onyeocha brings extensive experience in sports administration and youth development to his role.
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                Under his leadership, the ministry has intensified efforts in talent identification, grassroots sports development, and youth empowerment programs. His vision aligns with building a dynamic generation of youth celebrated for sporting excellence and leadership, fostering community development through sports and creating pathways for young people to reach their full potential.
-                            </p>
-                        </div>
-                        <div className="order-1 lg:order-2">
-                            <Image
-                                src="/assets/no-image.png"
-                                alt="Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development"
-                                width={500}
-                                height={600}
-                                className="rounded-lg shadow-lg w-full h-auto"
-                            />
-                        </div>
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Goals</h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            The Ministry of Sports and Youth Development is committed to transforming sports development and youth empowerment in Imo State through world-class infrastructure, talent nurturing, and comprehensive sports programs.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {[
+                            "Complete construction of ultra-modern indoor sports hall/gym complex worth ₦200M in Owerri.",
+                            "Establish Imo State Sports Academy for systematic talent identification and development.",
+                            "Construct Olympic-standard swimming pool and upgrade Dan Anyiam Stadium facilities.",
+                            "Build 30,000-capacity modern stadium in Owerri and 10,000-capacity zonal stadium in Orlu.",
+                            "Identify and develop over 1,000 young talents across 17 sports disciplines annually.",
+                            "Renovate and equip existing sports facilities including Grasshoppers International Handball Stadium.",
+                            "Implement comprehensive youth empowerment programs reaching 5,000 beneficiaries yearly.",
+                            "Establish partnerships with international sports organizations for coaching upgrades.",
+                            "Create modern hostel complex worth ₦200M for athletes and sports personnel.",
+                            "Develop grassroots sports programs in all 27 Local Government Areas of Imo State."
+                        ].map((goal, index) => (
+                            <AnimatedEntrance
+                                key={index}
+                                {...ANIMATION_PRESETS.CARD_FADE_UP}
+                                delay={0.1 * index}
+                            >
+                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                                        <span className="text-green-600 font-semibold">{index + 1}</span>
+                                    </div>
+                                    <p className="text-gray-700">{goal}</p>
+                                </div>
+                            </AnimatedEntrance>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -366,7 +406,6 @@ export default function About() {
                     </div>
                 </div>
             </section>
-
         </div>
     );
 }
