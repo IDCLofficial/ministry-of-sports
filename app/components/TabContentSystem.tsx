@@ -9,6 +9,7 @@ interface TabItem {
     id: string;
     label: string;
     content: {
+        objectPosition?: string;
         title: string;
         imageSrc: string;
         imageAlt: string;
@@ -23,7 +24,7 @@ interface TabContentSystemProps {
     className?: string;
 }
 
-export default function TabContentSystem({ tabs, className = "" }: TabContentSystemProps) {
+export default function TabContentSystem({ tabs, className = "", }: TabContentSystemProps) {
     const [activeTab, setActiveTab] = useState(tabs[0]?.id || "");
 
     const handleTabClick = (tabId: string) => {
@@ -71,6 +72,7 @@ export default function TabContentSystem({ tabs, className = "" }: TabContentSys
                                             alt={activeContent.imageAlt}
                                             fill
                                             className="object-cover"
+                                            objectPosition={activeContent.objectPosition || "center"}
                                         />
                                     </div>
                                     <p className="text-gray-700 leading-relaxed mb-6">

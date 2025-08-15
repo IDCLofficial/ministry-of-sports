@@ -18,6 +18,13 @@ export const HERO_CONFIGS = {
     height: 'extra-large' as const,
     alignment: 'left' as const
   },
+
+  DEPARTMENT: {
+    title: "Ministry of Sports and Youth Development Departments & Agencies",
+    height: 'medium' as const,
+    alignment: 'left' as const
+
+  },
   
   PROJECTS: {
     title: "Our Sports Infrastructure Projects",
@@ -39,7 +46,6 @@ export const HERO_CONFIGS = {
     description: "The Ministry of Sports and Youth Development offers comprehensive programs including talent identification, capacity-building training, sports infrastructure development, youth empowerment, and grassroots sports development to foster sporting excellence in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
-    overlay: false
   },
   
   NEWS: {

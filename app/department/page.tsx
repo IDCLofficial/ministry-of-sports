@@ -1,28 +1,13 @@
-import AnimatedEntrance from "../../components/AnimatedEntrance";
-import { ANIMATION_PRESETS } from "../../utils/constants/animations";
+import HeroSection from "@/components/HeroSection";
 import TabContentSystem from "../components/TabContentSystem";
+import { HERO_CONFIGS } from "@/utils/constants/heroSections";
 
 export default function Department() {
     return (
         <div className="min-h-screen bg-white">
 
             {/* Hero Section */}
-            <AnimatedEntrance {...ANIMATION_PRESETS.SECTION_FADE_IN}>
-                <section className="relative bg-cover bg-center py-20 md:py-32" style={{ backgroundImage: 'url("/hero_section.png")' }}>
-                    <div className="absolute inset-0 bg-black/20"></div>
-                    <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                        <AnimatedEntrance {...ANIMATION_PRESETS.TITLE_FADE_DOWN}>
-                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                                Ministry of Sports<br />
-                                and Youth Development
-                            </h1>
-                            <p className="mt-4 text-xl text-white">
-                                Departments & Agencies
-                            </p>
-                        </AnimatedEntrance>
-                    </div>
-                </section>
-            </AnimatedEntrance>
+            <HeroSection {...HERO_CONFIGS.DEPARTMENT}/>
 
             {/* Main Content Section with Tab System */}
             <TabContentSystem 
@@ -33,7 +18,8 @@ export default function Department() {
                         label: "Sports Development",
                         content: {
                             title: "Department of Sports Development",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Photo - Department of Sports Development.jpg",
+                            objectPosition: "10% 10%",
                             imageAlt: "Department of Sports Development",
                             description: "The Department of Sports Development designs and implements sports policies, manages state teams and competitions (e.g., National Sports Festival), and promotes grassroots sports development across Imo State.",
                             additionalInfo: [
@@ -50,7 +36,7 @@ export default function Department() {
                         label: "Youth Development",
                         content: {
                             title: "Department of Youth Development",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/6064.jpg",
                             imageAlt: "Department of Youth Development",
                             description: "The Department of Youth Development engages youth in empowerment programs, entrepreneurship, and leadership training. The department coordinates NYSC affairs and implements youth-focused initiatives across Imo State.",
                             additionalInfo: [
@@ -67,7 +53,7 @@ export default function Department() {
                         label: "Talent Hunt & Empowerment",
                         content: {
                             title: "Department of Talent Hunt and Empowerment",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Photo - Department of Talent Hunt and Empowerment.jpg",
                             imageAlt: "Department of Talent Hunt and Empowerment",
                             description: "The Department of Talent Hunt and Empowerment identifies young talents in sports and supports them with training, exposure, and mentorship programs to develop their potential and achieve excellence.",
                             additionalInfo: [
@@ -84,7 +70,7 @@ export default function Department() {
                         label: "Sports Infrastructure",
                         content: {
                             title: "Department of Sports Infrastructure & Facility Management",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Photo - Department of Sports Infrastructure & Facility Management.jpg",
                             imageAlt: "Department of Sports Infrastructure & Facility Management",
                             description: "The Department of Sports Infrastructure & Facility Management oversees the construction, renovation, and maintenance of stadiums and sports complexes across Imo State to support sporting activities and events.",
                             additionalInfo: [
@@ -101,7 +87,7 @@ export default function Department() {
                         label: "Planning, Research & Statistics",
                         content: {
                             title: "Department of Planning, Research & Statistics",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Photo - Department of Planning, Research & Statistics.jpg",
                             imageAlt: "Department of Planning, Research & Statistics",
                             description: "The Department of Planning, Research & Statistics monitors and evaluates the ministry's programs, conducts research for policy development, and manages data/statistics to support evidence-based decision making.",
                             additionalInfo: [
@@ -118,7 +104,7 @@ export default function Department() {
                         label: "Administration & General Services",
                         content: {
                             title: "Department of Administration & General Services",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Photo - Department of Administration & General Services.jpg",
                             imageAlt: "Department of Administration & General Services",
                             description: "The Department of Administration & General Services handles the internal administration of the ministry, including logistics, records, staff matters, and supplies to ensure smooth operational efficiency.",
                             additionalInfo: [
@@ -135,7 +121,7 @@ export default function Department() {
                         label: "Finance & Accounts",
                         content: {
                             title: "Department of Finance & Accounts",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Photo - Department of Finance & Accounts.jpg",
                             imageAlt: "Department of Finance & Accounts",
                             description: "The Department of Finance & Accounts manages budgeting, fund disbursement, and financial reporting within the ministry to ensure proper financial management and accountability.",
                             additionalInfo: [
@@ -152,7 +138,7 @@ export default function Department() {
                         label: "Media & Outreach",
                         content: {
                             title: "Department of Public Relations / Media & Outreach",
-                            imageSrc: "/assets/no-image-lg.jpg",
+                            imageSrc: "/photos/Department of Public Relations.jpg",
                             imageAlt: "Department of Public Relations / Media & Outreach",
                             description: "The Department of Public Relations / Media & Outreach manages the ministry's public communication, coordinates with SWAN (Sports Writers Association of Nigeria), and promotes events and sporting activities.",
                             additionalInfo: [

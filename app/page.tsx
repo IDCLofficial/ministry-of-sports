@@ -30,7 +30,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
                 <Image
-                  src="/assets/no-image.png"
+                  src="/photos/Photo - Ministry of Sports and Youth Development.jpg"
                   alt="Imo State Ministry of Sports and Youth Development – Overview"
                   width={600}
                   height={400}
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="flex-1 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
                   <Image
-                    src="/assets/no-image.png"
+                    src="/photos/Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development.jpg"
                     alt="Hon. Obinna Evaristus Onyeocha – Honourable Commissioner for Sports and Youth Development"
                     width={500}
                     height={600}
@@ -204,27 +204,27 @@ export default function Home() {
             </p>
           </AnimatedEntrance>
           <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
-            {[{ name: 'Nigeria Football Federation', logo: '/assets/no-image.png' },
-              { name: 'Imo State Football Association', logo: '/assets/no-image.png' },
-              { name: 'National Youth Service Corps', logo: '/assets/no-image.png' },
-              { name: 'Sports Writers Association', logo: '/assets/no-image.png' },
-              { name: 'Heartland FC', logo: '/assets/no-image.png' },
+            {[{ name: 'Nigeria Football Federation', logo: '/photos/Photo - Nigeria Football Federation.png' },
+              { name: 'Imo State Football Association', logo: '/photos/Photo - Imo State Football Association.png' },
+              { name: 'National Youth Service Corps', logo: '/photos/Photo - National Youth Service Corps.png' },
+              { name: 'Sports Writers Association', logo: '/photos/Photo - Sports Writers Association.png' },
+              { name: 'Heartland FC', logo: '/photos/Photo - Heartland FC.png' },
             ].map((partner, index) => (
               <AnimatedEntrance
                 key={partner.name}
                 {...ANIMATION_PRESETS.CARD_FADE_UP}
                 delay={STAGGER_DELAYS.MEDIUM[index % STAGGER_DELAYS.MEDIUM.length]}
-                className="flex items-center justify-center"
+                className="flex items-stretch justify-center"
               >
                 <div className="text-center hover:transform hover:scale-110 transition-all duration-300 cursor-pointer">
-                  <div className="bg-white p-2 rounded-lg shadow-sm">
+                  <div className="bg-white p-2 rounded-lg shadow-sm aspect-[1/1] h-28">
                     <CustomImage
                       src={partner.logo}
                       alt={`Partner ${partner.name}`}
                       width={100}
                       title={`Partner ${partner.name}`}
                       height={60}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                 </div>
