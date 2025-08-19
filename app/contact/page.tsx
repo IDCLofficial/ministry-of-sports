@@ -99,9 +99,9 @@ export default function Contact() {
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
                                         <div className="space-y-1">
                                             <p className="text-gray-600 text-sm mb-2">Sports Development Hotline:</p>
-                                            <a href="tel:2348035066722" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">[To be provided]</a>
+                                            <a href="tel:+2348036768440" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">+234 803 676 8440</a>
                                             <p className="text-gray-600 text-sm mb-1 mt-2">Youth Programs:</p>
-                                            <a href="tel:2348038704368" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">[To be provided]</a>
+                                            <a href="tel:+2347035098372" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">+234 703 509 8372</a>
                                         </div>
                                     </div>
                                 </AnimatedEntrance>
@@ -128,13 +128,13 @@ export default function Contact() {
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Follow Our Sports Updates</h3>
                                         <p className="text-gray-600 text-sm mb-3">Stay connected for sports news & youth programs</p>
                                         <div className="flex space-x-3 text-white">
-                                            <a href="https://facebook.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaSquareFacebook />
                                             </a>
-                                            <a href="https://twitter.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaTwitter />
                                             </a>
-                                            <a href="https://instagram.com/ImoStateGovt" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="#" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaInstagram />
                                             </a>
                                         </div>
@@ -151,11 +151,11 @@ export default function Contact() {
                                         <div className="space-y-1">
                                             <p className="text-gray-600 text-sm mb-2">General Inquiries:</p>
                                             <a href="mailto:info@imosports.gov.ng" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
-                                                [To be provided]
+                                                info@imosports.gov.ng
                                             </a>
                                             <p className="text-gray-600 text-sm mb-1 mt-2">Youth Programs:</p>
                                             <a href="mailto:youth@imosports.gov.ng" className="block text-blue-600 hover:text-blue-800 transition-colors duration-300">
-                                                [To be provided]
+                                                youth@imosports.gov.ng
                                             </a>
                                         </div>
                                     </div>
@@ -168,7 +168,7 @@ export default function Contact() {
                             <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-lg transition-shadow duration-300">
                                 <form onSubmit={handleSubmit} noValidate className="space-y-6">
                                     <h3 className="text-2xl font-bold text-gray-900 mb-2">SEND US A MESSAGE</h3>
-                                <p className="text-gray-600 mb-6 text-sm">Please fill out the form below to reach us directly. We value your inquiries about sports development, youth empowerment programs, talent identification, and partnership opportunities.</p>
+                                    <p className="text-gray-600 mb-6 text-sm">Please fill out the form below to reach us directly. We value your inquiries about sports development, youth empowerment programs, talent identification, and partnership opportunities.</p>
                                     <div>
                                         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                                             Name
@@ -269,7 +269,7 @@ export default function Contact() {
                                         {errors.message && <p id="message-error" className="mt-2 text-sm text-red-600">{errors.message}</p>}
                                     </div>
                                     <div className="flex items-center">
-                                        <input type="checkbox" id="not-robot" name="not-robot" className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded" />
+                                        <input type="checkbox" id="not-robot" name="not-robot" className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded" required />
                                         <label htmlFor="not-robot" className="ml-2 block text-sm text-gray-700">
                                             I&apos;m not a robot
                                         </label>
@@ -290,9 +290,9 @@ export default function Contact() {
                     </div>
                     {/* Map Integration */}
                     <div className="mt-16">
-                                <h3 className="text-2xl font-bold text-gray-900 mb-6">🗺️ Find Us on the Map</h3>
+                        <h3 className="text-2xl font-bold text-gray-900 mb-6">🗺️ Find Us on the Map</h3>
                         <div className="aspect-w-16 aspect-h-9 w-full h-96 bg-gray-100 rounded-lg overflow-hidden">
-                                <iframe
+                            <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.81189487678!2d7.010186338670749!3d5.473897698626462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042599584de1111%3A0xb4d850b7108614d4!2sIMO%20STATE%20SECRETARIAT%20OWERRI!5e0!3m2!1sen!2sng!4v1754572411582!5m2!1sen!2sng"
                                 width="100%"
                                 height="100%"
@@ -300,7 +300,7 @@ export default function Contact() {
                                 allowFullScreen
                                 aria-hidden="false"
                                 tabIndex={0}
-                                    title="Imo State Ministry of Sports and Youth Development Location"
+                                title="Imo State Ministry of Sports and Youth Development Location"
                             ></iframe>
                         </div>
                         <p className="text-sm text-gray-500 mt-2">

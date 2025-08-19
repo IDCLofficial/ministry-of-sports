@@ -163,19 +163,19 @@ export default function Footer() {
                                     </button>
                                 </form>
                                 <div className="mt-4 sm:mt-6 space-y-1 sm:space-y-2 text-xs sm:text-sm text-gray-300 grid">
-                                    <span className="hover:text-green-300 transition-colors duration-300">[To be Provided]</span>
-                                    <a href="mailto:[To be provided]" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">[To be provided]</a>
+                                    <Link href={"tel:+2348036768440"} className="hover:text-green-300 transition-colors duration-300">+234 803 676 8440</Link>
+                                    <a href="mailto:info@imosports.gov.ng" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">info@imosports.gov.ng</a>
                                     <p className="leading-relaxed hover:text-gray-200 transition-colors duration-300">
                                         Block 1, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State, Nigeria
                                     </p>
                                     <div className="flex space-x-4 mt-2">
-                                        <a href="https://facebook.com/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
+                                        <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             Facebook
                                         </a>
-                                        <a href="https://twitter.com/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
+                                        <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             Twitter
                                         </a>
-                                        <a href="https://linkedin.com/company/imonigerdelta" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
+                                        <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             LinkedIn
                                         </a>
                                     </div>

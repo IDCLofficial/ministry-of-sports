@@ -49,7 +49,7 @@ export default function Home() {
                 </p>
               </AnimatedEntrance>
               <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
-                <Link href="/about">
+                <Link href="/services">
                   <button className="bg-[#4CAF50]/90 hover:bg-[#4CAF50] cursor-pointer w-fit text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:transform hover:scale-105 transition-all duration-300">
                     Learn More About Our Services
                   </button>
@@ -203,7 +203,7 @@ export default function Home() {
               Collaborating with sports organizations, football clubs, media partners, and development agencies to deliver comprehensive sports development and youth empowerment programs across Imo State
             </p>
           </AnimatedEntrance>
-          <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8">
             {[{ name: 'Nigeria Football Federation', logo: '/photos/Photo - Nigeria Football Federation.png' },
               { name: 'Imo State Football Association', logo: '/photos/Photo - Imo State Football Association.png' },
               { name: 'National Youth Service Corps', logo: '/photos/Photo - National Youth Service Corps.png' },
@@ -217,7 +217,7 @@ export default function Home() {
                 className="flex items-stretch justify-center"
               >
                 <div className="text-center hover:transform hover:scale-110 transition-all duration-300 cursor-pointer">
-                  <div className="bg-white p-2 rounded-lg shadow-sm aspect-[1/1] h-28">
+                  <div className="bg-white p-2 rounded-lg shadow-sm aspect-[1/1] h-28 w-24 sm:w-32 md:w-40">
                     <CustomImage
                       src={partner.logo}
                       alt={`Partner ${partner.name}`}
