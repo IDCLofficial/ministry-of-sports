@@ -83,11 +83,6 @@ export default function Home() {
                   Together, we are shaping champions on and off the field, building a dynamic, inclusive, and high-performing generation of youth, celebrated for sporting prowess, leadership, and community vitality. Join us in this transformative journey towards sporting excellence.
                 </p>
               </AnimatedEntrance>
-              {/* <AnimatedEntrance {...ANIMATION_PRESETS.BUTTON_SCALE_UP} delay={600}>
-                <button className="bg-[#4CAF50]/90 hover:bg-[#4CAF50] cursor-pointer text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:transform hover:scale-105 transition-all duration-300">
-                  Read Full Bio
-                </button>
-              </AnimatedEntrance> */}
             </div>
             <div className="flex-1 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
