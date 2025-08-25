@@ -3,11 +3,21 @@
 import { useState, useEffect } from 'react';
 import { contentfulService } from '@/utils/contentful';
 import { Ministry } from '@/utils/contentful/types';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function MinistriesTable() {
   const [ministries, setMinistries] = useState<Ministry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  const copyToClipboard = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      toast.success('Ministry ID copied to clipboard!');
+    } catch (err) {
+      toast.error('Failed to copy to clipboard');
+    }
+  };
 
   useEffect(() => {
     const fetchMinistries = async () => {
@@ -112,7 +122,11 @@ export default function MinistriesTable() {
                           </span>
                         </div>
                         <div className="ml-3">
-                          <div className="text-sm font-mono text-gray-900 bg-gray-100 px-2 py-1 rounded">
+                          <div 
+                            className="text-sm font-mono text-gray-900 bg-gray-100 px-2 py-1 rounded cursor-pointer hover:bg-gray-200 transition-colors duration-150"
+                            onClick={() => copyToClipboard(ministry.sys.id)}
+                            title="Click to copy ID"
+                          >
                             {ministry.sys.id}
                           </div>
                         </div>
@@ -174,6 +188,12 @@ export default function MinistriesTable() {
           </p>
         </div>
       </div>
+      <Toaster 
+        position="top-right"
+        toastOptions={{
+          duration: 3000,
+        }}
+      />
     </div>
   );
 }
