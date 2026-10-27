@@ -1,6 +1,14 @@
 import HeroSection from "@/components/HeroSection";
 import TabContentSystem from "../components/TabContentSystem";
 import { HERO_CONFIGS } from "@/utils/constants/heroSections";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Departments",
+  description: "Departments and units of the Ministry of Sports & Youth Development, Imo State Government.",
+  path: "/department",
+});
+
 
 export default function Department() {
     return (
