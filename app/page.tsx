@@ -11,8 +11,8 @@ import CustomImage from "./components/CustomImage";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: { absolute: "Ministry of Sports & Youth Development | Imo State Government" },
-  description: "Official website of the Ministry of Sports & Youth Development, Imo State Government: services, departments, projects, news and events.",
+  title: { absolute: "Imo State Ministry of Sports and Youth Development" },
+  description: "Talent identification and football scouting, sports academy planning, grassroots development, youth empowerment and capacity building in Imo State.",
   path: "/",
 });
 

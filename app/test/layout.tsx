@@ -2,7 +2,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Not for indexing",
-  description: "Internal page of the Ministry of Sports & Youth Development.",
+  description: "Internal page of the Ministry of Sports and Youth Development.",
   path: "/test",
   noindex: true,
 });

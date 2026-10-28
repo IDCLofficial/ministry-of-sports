@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "News",
-  description: "Latest news, announcements and updates from the Ministry of Sports & Youth Development, Imo State.",
+  description: "Latest news, announcements and updates from the Ministry of Sports and Youth Development, Imo State.",
   path: "/news",
 });
 

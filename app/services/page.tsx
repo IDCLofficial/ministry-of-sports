@@ -7,8 +7,8 @@ import { FaHandsHelping } from 'react-icons/fa';
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Services",
-  description: "Services offered by the Ministry of Sports & Youth Development of the Imo State Government.",
+  title: "Talent Identification, Sports Academies and Youth Programmes",
+  description: "Capacity-building and training, talent identification and football scouting, sports academy planning, grassroots development and mini-football promotion in Imo State.",
   path: "/services",
 });
 
